@@ -1,14 +1,14 @@
 {
   "type": "tolstoy-workspace",
   "version": 1,
-  "exportedAt": "2025-12-25T06:13:12.364Z",
+  "exportedAt": "2025-12-25T06:53:16.612Z",
   "settings": {
     "ai": {
       "provider": "deepseek",
       "baseUrl": "http://localhost:8787",
       "model": "deepseek-reasoner",
       "temperature": 0.2,
-      "systemPrompt": "Hãy xử lý văn bản bức thư sau đây của Lev Tolstoy, theo các yêu cầu dưới đây, nhằm tối ưu cho việc chuyển văn bản thành audio tiếng Việt mượt mà, tự nhiên:\n\nYÊU CẦU XỬ LÝ:\n\n1. ĐỊNH DẠNG phần mở đầu:\n   - Dòng đầu tiên: \"Thư gửi [Tên đầy đủ người nhận], [Ngày tháng năm], [Địa điểm].\n   - Lưu ý: \n     - Tên phải được dịch theo phong cách đặt tên bằng tiếng anh. \n     - Lấy tên đầy đủ của người nhận từ phần chú thích nếu có. Nếu phần chú thích không có, chỉ lấy phần tên hoặc họ đầy đủ của người nhận, ko lấy chữ cái viết tắt (ví dụ N.N.Strakov thì chỉ lấy Strakov). \n     - Lưu ý lấy chính xác tên người nhận, không nhầm với người khác, đối chiếu ở đầu thư và phần ghi chú để chắc chắn.\n     - Thay tất cả dấu gạch ngang \"–\" trong văn bản bằng dấu phẩy \",\".\n\n   - Dòng thứ 2-3-4-5: Giới thiệu ngắn gọn về người được nhận bức thư của Tolstoy, người đó ở đâu, là người có quan hệ với Tolstoy thế nào (nếu có), người đó hỏi Tolstoy điều gì trước đó, hoàn cảnh người đó thế nào, nhu cầu người đó là gì, nếu có nhiều sự kiện được trình bày trong phần chú thích ở cuối, thì có thể tăng thêm 1-2 câu để trình bày đầy đủ bối cảnh.\n   - Dòng kết thúc phần mở đầu: \"Sau đây là thư hồi đáp của Tolstoy.\"\n\n2. NỘI DUNG CHÍNH:\n   - Mục tiêu: Tối ưu cho việc đọc thành audio, với nhịp ngắt nghỉ tự nhiên, mượt mà.\n   - Nguyên tắc:\n     - Giữ nguyên toàn bộ nội dung và sắc thái ý nghĩa của bức thư gốc.\n     - Tuyệt đối không cắt bỏ ý, phải viết đúng chính tả.\n     - Chỉ sửa những từ/cụm từ thật sự tối nghĩa (nếu có) để câu văn rõ ràng hơn.\n     - loại bỏ các ký tự lạ, không phù hợp với việc chuyển text thành audio tiếng việt.\n     - trong văn bản nếu là dạng chữ số thì chuyển sang dạng chữ viết, ví dụ 2 x 2 = 4 thì chuyển thành hai nhân hai bằng bốn.\n     - nếu đoạn văn dài thì xuống dòng sau 3-4 câu nếu cảm thấy ý đó có thể ngắt được\n     - Thay thế tất cả dấu gạch ngang \"–\" trong nội dung thư bằng dấu phẩy \",\".\n     - thay thế từ \"Thiên Chúa\" thành Thượng Đế, \"Chúa Jesus\" thành Đức Jesus.\n     - thay thế từ \"tình thương\" thành \"tình yêu thương\".\n     - Sử dụng Ki-tô giáo, Ki-tô hữu thay cho những từ Thiên Chúa Giáo, Cơ Đốc Giáo, Cơ Đốc Nhân\n\n\n3. KẾT THÚC THƯ:\n   - Chỉ giữ lại dòng chứa tên đầy đủ của tác giả (ví dụ: \"Lev Tolstoy\").\n\n4. PHẦN CHÚ THÍCH, Chú Giải (nếu có): hãy loại bỏ",
+      "systemPrompt": "Hãy xử lý văn bản bức thư sau đây của Lev Tolstoy, theo các yêu cầu dưới đây, nhằm tối ưu cho việc chuyển văn bản thành audio tiếng Việt mượt mà, tự nhiên:\n\nYÊU CẦU XỬ LÝ:\n\n1. ĐỊNH DẠNG phần mở đầu:\n   - Dòng đầu tiên: \"Thư gửi [Tên đầy đủ người nhận], [Ngày tháng năm], [Địa điểm].\n   - Lưu ý: \n     - Tên phải được dịch theo phong cách đặt tên bằng tiếng anh. \n     - Lấy tên đầy đủ của người nhận từ phần chú thích nếu có. Nếu phần chú thích không có, chỉ lấy phần tên hoặc họ đầy đủ của người nhận, ko lấy chữ cái viết tắt (ví dụ N.N.Strakov thì chỉ lấy Strakov). \n     - Lưu ý lấy chính xác tên người nhận, không nhầm với người khác, đối chiếu ở đầu thư và phần ghi chú để chắc chắn.\n     - Thay tất cả dấu gạch ngang \"–\" trong văn bản bằng dấu phẩy \",\".\n\n   - Dòng thứ 2-3-4-5: Giới thiệu ngắn gọn về người được nhận bức thư của Tolstoy, người đó ở đâu, là người có quan hệ với Tolstoy thế nào (nếu có), người đó hỏi Tolstoy điều gì trước đó, hoàn cảnh người đó thế nào, nhu cầu người đó là gì, nếu có nhiều sự kiện được trình bày trong phần chú thích ở cuối, thì có thể tăng thêm 1-2 câu để trình bày đầy đủ bối cảnh.\n   - Dòng kết thúc phần mở đầu: \"Sau đây là thư hồi đáp của Tolstoy.\"\n\n2. NỘI DUNG CHÍNH:\n   - Mục tiêu: Tối ưu cho việc đọc thành audio, với nhịp ngắt nghỉ tự nhiên, mượt mà.\n   - Nguyên tắc:\n     - Điều chỉnh lại vấn đề xưng hô nếu thấy chưa ổn, ví dụ người nhận thư còn trẻ thì gọi họ là anh hoặc cô, nếu họ đã đứng tuổi thì xưng hô là ông hay bà, nếu người nhận còn nhỏ hoặc thiếu niên thì xưng tôi và gọi họ là cháu.\n     - Nếu là người thân trong gia đình thì xưng theo vai vế, ko xưng tôi như người ngoài.\n     - Giữ nguyên toàn bộ nội dung và sắc thái ý nghĩa của bức thư gốc.\n     - Tuyệt đối không cắt bỏ ý, phải viết đúng chính tả.\n     - Chỉ sửa những từ/cụm từ thật sự tối nghĩa (nếu có) để câu văn rõ ràng hơn.\n     - loại bỏ các ký tự lạ, không phù hợp với việc chuyển text thành audio tiếng việt.\n     - trong văn bản nếu là dạng chữ số thì chuyển sang dạng chữ viết, ví dụ 2 x 2 = 4 thì chuyển thành hai nhân hai bằng bốn.\n     - nếu đoạn văn dài thì xuống dòng sau 3-4 câu nếu cảm thấy ý đó có thể ngắt được\n     - Thay thế tất cả dấu gạch ngang \"–\" trong nội dung thư bằng dấu phẩy \",\".\n     - thay thế từ \"Thiên Chúa\" thành Thượng Đế, \"Chúa Jesus\" thành Đức Jesus.\n     - thay thế từ \"tình thương\" thành \"tình yêu thương\".\n     - Sử dụng Ki-tô giáo, Ki-tô hữu thay cho những từ Thiên Chúa Giáo, Cơ Đốc Giáo, Cơ Đốc Nhân\n     - sử dụng từ \"trong sạch\" thay cho khiết tịnh.\n\n3. KẾT THÚC THƯ:\n   - Chỉ giữ lại dòng chứa tên đầy đủ của tác giả (ví dụ: \"Lev Tolstoy\").\n\n4. PHẦN CHÚ THÍCH, Chú Giải (nếu có): hãy loại bỏ",
       "backupBeforeAI": false
     }
   },
@@ -44,7 +44,7 @@
       "processedText": "Thư gửi Semyon Rybakov, ngày 9 tháng 10 năm 1909, Yasnaya Polyana.\n\nAnh em thân mến,\n\nTôi rất vui được nhận thư của anh. Tôi không hề nghi ngờ dù chút nào về sự chân thành của anh. Sự giao lưu với những người như anh, và suy nghĩ rằng những tác phẩm của tôi có thể giúp ích cho họ trong sự phát triển tinh thần của họ, tạo nên niềm vui tốt đẹp nhất trong cuộc đời tôi.\n\nCầu Chúa giúp anh không ngừng tiến bước trên con đường hoàn thiện tinh thần và tiến gần đến Chúa, con đường mà anh đang đi cũng như tôi. Đừng buồn bã vì những người xung quanh không hiểu và phán xét anh. Không thể khác được. Chỉ cần cố gắng, bất chấp mọi sự phán xét của họ, hãy tử tế và yêu thương họ.\n\nTôi gửi anh cuốn sách \"Mỗi Ngày\". Sẽ có những cuốn như thế cho tất cả các tháng. Khi chúng ra mắt, tôi sẽ gửi cho anh.\n\nLev Tolstoy",
       "createdAt": "2025-12-15T10:39:36.702Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1765795123871",
@@ -53,7 +53,7 @@
       "processedText": "Thư gửi Pyotr Prokofievich Kartushin, ngày 9 tháng 10 năm 1909, Yasnaya Polyana.\n\nThư của anh đã làm tôi rất vui mừng, Kartushin thân mến.\nAnh thật may mắn khi ở tuổi trẻ, có cả một cuộc đời dài trước mắt theo mọi khả năng, đã hiểu được, nhận thức được điều mà tôi chỉ mới trong thời gian gần đây mới nhận thức được bằng toàn bộ con người mình, rằng không có gì, không ở đâu, không bao giờ có thể biện minh được trước vị thẩm phán bên trong mình.\nMột điều duy nhất, không phải là sự biện minh, mà là sự cứu rỗi và niềm vui, đó là cuộc sống trong tình yêu thương, trong từng phút hiện tại với mọi con người, mọi sinh vật mà mình tiếp xúc, không chỉ qua hành động, lời nói, mà cả trong suy nghĩ.\nChỉ cần nhớ về điều này, thực hiện điều này, và không chỉ có sự cứu rỗi khỏi ý thức về tội lỗi của mình, mà còn có niềm vui, hơn cả niềm vui.\n\nAnh biết cảm giác này.\nTôi khơi gợi trong mình cảm giác này khá dễ dàng khi tôi ở một mình, nhưng ngay khi tiếp xúc với một người, với nhiều người, anh cũng biết điều này, mình quên mất, mất đi ý thức vui mừng này, tình yêu thương với mọi thứ.\nGần đây tôi đã nghĩ ra cho mình một lời cầu nguyện mà tôi cố gắng lặp lại khi bước vào giao tiếp với mọi người, không chỉ giao tiếp trực tiếp mà cả bằng thư từ, thậm chí trong suy nghĩ.\nTôi nói, hãy giúp tôi ở cùng với Ngài.\nĐấng mà tôi hướng đến, ở trong tất cả và trong tôi.\nĐối với tôi, hình thức cầu nguyện này rất hữu ích.\nVà khi tôi nhớ và nói điều này với bản thân, lúc đó mọi thứ đều tốt đẹp.\n\nCảm ơn vì bức thư.\nYêu quý anh,\n\nLev Tolstoy",
       "createdAt": "2025-12-15T10:38:43.871Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1765795020308",
@@ -62,7 +62,7 @@
       "processedText": "Thư gửi I. V. và K. Gulyaev, ngày 7 tháng 10 năm 1909, Yasnaya Polyana.\n\nTôi đã nhận được hai bức thư tốt đẹp và thân thiết của các anh, và rất vui mừng về chúng. Tất cả những gì các anh viết về bản thân mình đều gần gũi với những gì tôi đang sống.\n\nKhông thể có chiến thắng hoàn toàn trước những kẻ thù nội tâm trong cuộc đời này, bởi vì cuộc sống ở đây chỉ là cuộc đấu tranh không ngừng nghỉ, đầy niềm vui với chúng và ngày càng chinh phục chúng nhiều hơn.\n\nTôi gửi các anh cuốn sách của tôi: \"Mỗi Ngày\". Nó mới chỉ ra được tháng 6, nhưng sẽ ra cho tất cả các tháng, và khi đó tôi sẽ gửi cho các anh. Toàn bộ ý nghĩa của cuốn sách là nó chỉ ra những phương tiện tốt nhất, được sử dụng nhiều nhất để đấu tranh với kẻ thù: tội lỗi, cám dỗ, mê tín.\n\nCảm ơn các bức thư.\nYêu quý các anh,\n\nLev Tolstoy",
       "createdAt": "2025-12-15T10:37:00.308Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1765588516670",
@@ -71,7 +71,7 @@
       "processedText": "Thư gửi Pyotr Vasilyevich Verigin, 4 tháng Mười năm 1909, Yasnaya Polyana.\n\n4 tháng Mười 1909\n\nTôi chân thành cảm ơn anh, người anh em thân yêu Pyotr, vì bức thư của anh và vì những tin vui về các anh em chúng ta, đặc biệt là về sự trưởng thành tâm linh mà anh viết đến.\n\nPhúc lành của đời sống chúng ta chỉ nằm trong tâm hồn, trong việc tâm hồn ấy ngày càng đến gần Thượng Đế hơn.\n\nCòn những lo toan vật chất phần lớn chỉ làm ta xa rời công việc nội tâm của linh hồn.\n\nCầu Chúa giúp anh cùng các anh em tiến tới trong điều “chỉ một sự cần mà thôi”.\n\nXin chuyển đến các anh em tình yêu của tôi và nỗi tiếc nuối của tôi vì về mặt vật chất tôi bị chia cắt với anh và với họ.\n\nTôi chỉ mong được giao cảm bằng tâm hồn.\n\nTôi gửi anh vài cuốn sách, rất mong các anh em tán đồng chúng.\n\nYêu thương anh,\nLev Tolstoy",
       "createdAt": "2025-12-13T01:15:16.670Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1765587554468",
@@ -80,7 +80,7 @@
       "processedText": "Thư gửi N. Paramonov, 1 tháng Mười năm 1909, Yasnaya Polyana.\n\nAnh hỏi: «Hạnh phúc nằm ở đâu?».\n\nHạnh phúc chính là thực hiện ý muốn của Đấng đã gửi chúng ta vào đời, Đấng mà chúng ta gọi là Thượng Đế.\n\nÝ muốn của Ngài là để chúng ta gia tăng trong mình tình yêu thương đối với Thượng Đế, đối với sự hoàn thiện, sau đó đối với con người, đối với mọi con người, rồi đối với mọi sinh vật, chính vì thế mà có chủ nghĩa ăn chay, và để gia tăng tình yêu thương trong mình, cần phải đấu tranh với những ham muốn cá nhân, ích kỷ của bản thân, mọi thứ dục vọng và đam mê.\n\nAi đặt cả cuộc đời mình vào việc ấy và cảm nhận được mình đang từng chút một tiến bộ, người ấy sẽ nhận được hạnh phúc chân thật, thứ hạnh phúc mà không gì có thể phá hủy nổi.\n\nTôi gửi kèm anh vài cuốn sách, trong đó từ nhiều góc độ khác nhau đã bày tỏ cùng những ý nghĩ ấy.\n\nLev Tolstoy",
       "createdAt": "2025-12-13T00:59:14.468Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1765587433007",
@@ -89,7 +89,7 @@
       "processedText": "Thư gửi Viktoria Mikhailovna Bernshtein, 1 tháng 10 năm 1909, Yasnaya Polyana.\n\nViktoria Mikhailovna thân mến,\n\nChị hỏi: \"sống thế nào?\".\n\nSống sao cho thực hiện ý muốn của Đấng, hoặc điều gì đó, đã gửi chúng ta vào đời. Ý muốn ấy chính là: làm cho tình yêu trong ta ngày càng lớn lên.\n\nĐể tình yêu trong ta lớn lên, cần phải nghiêm khắc với chính mình, kìm nén những ham muốn cá nhân, ích kỷ, xấu xa. Hãy coi đó là mục đích chính, duy nhất và cao nhất của cuộc đời.\n\nCòn đối với người khác, đừng phán xét họ, mà hãy cố gắng yêu thương họ càng nhiều hơn, chính bởi họ lầm lạc nên mới bất hạnh.\n\nChỉ cần bắt đầu sống như vậy, bằng toàn bộ con người mình, chị sẽ cảm nhận được rằng cuộc đời thực sự chỉ có ở đây, và cuộc đời ấy chính là hạnh phúc.\n\nLev Tolstoy",
       "createdAt": "2025-12-13T00:57:13.007Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1765204683824",
@@ -107,7 +107,7 @@
       "processedText": "Thư gửi Sofya Mikhailovna Rubinstein, ngày 28 tháng 9 năm 1909, Yasnaya Polyana.\n\nThượng đế không ở trên trời, mà ở trong mỗi con người. Thượng đế là điều ban sự sống cho con người và cho mọi sinh vật. Chúng ta nhận biết Thượng đế qua tình yêu thương. Qua tình yêu, Thượng đế trong tôi kết hợp với Thượng đế trong những sinh vật khác. Vì vậy, toàn bộ luật của Thượng đế là yêu Thượng đế và người lân cận, và vì thế hạnh phúc lớn nhất trên đời là yêu thương tất cả mọi người.\n\nTôi gửi cho em bài cầu nguyện. Tôi khuyên em hãy đọc nó, và cũng khuyên em cố gắng kiềm chế mọi thứ cản trở tình yêu thương, mà cố gắng yêu thương bình đẳng tất cả mọi người.\n\nLev Tolstoy.",
       "createdAt": "2025-12-08T14:36:14.095Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1765066745020",
@@ -134,7 +134,7 @@
       "processedText": "Thư gửi Varvara Ivanovna Sokolova-Kurganskaya, ngày 24 tháng 9 năm 1909, Yásnaia Poliana.\n\nVarvara Ivanovna,\n\nTrong tất cả những nỗi buồn và bất hạnh của chúng ta, không có ngoại lệ, chỉ có một sự an ủi duy nhất, chuyển cuộc sống của mình từ đời sống thể xác sang đời sống tinh thần, trong ý thức về tính thần thánh của linh hồn mình. Tôi không biết điều tốt đẹp nào khác, cũng không biết sự an ủi nào khác trong nỗi buồn.\n\nÝ thức này bao gồm những gì và đạt được nó như thế nào, tôi đã bày tỏ, theo khả năng của mình, trong các cuốn sách của tôi. Tôi gửi cho bà một số cuốn trong số đó.\n\nTôi sẽ vui mừng nếu những ý tưởng được thể hiện trong những cuốn sách này giúp ích cho bà.\n\nLev Tolstoy.",
       "createdAt": "2025-12-07T00:04:35.519Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764990684151",
@@ -143,7 +143,7 @@
       "processedText": "Thư gửi N. N. Gusev, ngày 25 tháng 2 năm 1910, Yasnaya Polyana.\n\nTôi đã định và định viết, trả lời anh về bức thư của anh, như mọi khi, rất tốt, rất tốt, nhưng vừa rồi tôi đọc thư của Bulgakov gửi anh, và muốn nói với anh dù chỉ hai lời rằng tôi yêu quý anh như cũ, và dù giờ phút của tôi đã gần kề, tôi vẫn hy vọng hoặc đúng hơn là mong muốn còn gặp lại anh.\n\nTrích đoạn của anh từ Chekhov hay làm sao! Nó xứng đáng có trong Vòng đọc. Bây giờ tôi đang bận với phiên bản thứ 3 của Vòng đọc, và như mọi khi khi còn bận với nó, tôi rất thích nó. Vẫn còn việc sáng tạo nghệ thuật đang đòi hỏi. Không biết tôi có kịp không.\n\nSasha đã nguy hiểm vì bệnh sởi, bây giờ đang bình phục. Anh thế nào? Trong thư lần này anh viết ít về bản thân mình. Nhưng dù sao cũng cảm ơn. Tôi vui mừng vì anh đã xóa bỏ điều gì đã chia cắt anh với Chertkov. Cả hai anh đều quá gần gũi với cùng một điều để có thể xa cách nhau.\n\nL. T.",
       "createdAt": "2025-12-06T03:11:24.151Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764990610438",
@@ -161,7 +161,7 @@
       "processedText": "Thư gửi Vadim Shtengel, ngày 24 tháng 2 năm 1910, Yasnaya Polyana.\n\nHãy luôn yêu thương tất cả mọi người, và sẽ luôn tốt đẹp cho cả con và những người con sống cùng.\n\nBản thảo: Hãy luôn yêu thương tất cả mọi người, và sẽ luôn tốt đẹp ở mọi nơi. Nếu con ngừng yêu thương, tức giận, hãy biết rằng.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T03:07:03.124Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764990372957",
@@ -170,7 +170,7 @@
       "processedText": "Thư gửi Mikhail Shatunov, ngày 23 tháng 2 năm 1910, Yasnaya Polyana.\n\nThư của anh đã làm tôi rất vui. Cầu Chúa giúp anh kiên định đi trên con đường mà, như tôi thấy, đang rõ ràng trước mặt anh. Tất nhiên, hãy tiếp tục làm giáo viên và cố gắng, bất chấp những trở ngại từ giới giáo sĩ, ảnh hưởng đến thế hệ trẻ. Tôi không biết hoạt động nào có thể đánh đổi với hoạt động này. Tôi gửi cho anh những gì tôi đã bày tỏ về vấn đề hoạt động của giáo viên nông thôn. Tôi sẽ luôn vui mừng khi giao lưu với anh.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T03:06:12.957Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764989714054",
@@ -179,7 +179,7 @@
       "processedText": "Thư gửi Mikhail Petrovich Barmansky, ngày 19 tháng 2 năm 1910, Yasnaya Polyana.\n\nTôi không biết và không thể biết điều gì cần thiết hay không cần thiết cho nhân dân Nga.\nCòn về bản thân tôi, tôi biết chắc chắn rằng nghi lễ hoàn toàn không tương thích với tôi, với thế giới quan dựa trên những nguyên tắc Cơ đốc mà tôi sống.\nTôi biết rằng điều này đúng với tất cả mọi người không ngoại lệ, những người đang sống hoặc cố gắng sống cuộc sống Cơ đốc.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T02:55:14.054Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764989711953",
@@ -188,7 +188,7 @@
       "processedText": "Tập 80\n134. Gửi M. A. Mamedkhanly. Ngày 18 tháng 2 năm 1910. Yasnaya Polyana.\n\nNgày 18 tháng 2 năm 1910. Yasnaya Polyana.\n\nTôi rất cảm ơn ông về bức thư và cuốn sách (nhưng tôi chưa nhận được sách). Tôi đang biên soạn một loạt các cuốn sách nhỏ dễ tiếp cận cả về giá cả lẫn cách trình bày về những học thuyết tôn giáo chủ yếu của thế giới. Tôi cũng muốn biên soạn một cuốn sách nhỏ về những người theo đạo Baha'i và vì thế tôi rất vui với tài liệu cần thiết cho việc xuất bản như vậy.¹\n\nIn theo bản sao, đối chiếu với bản thảo gốc, viết trên phong bì thư của Mamedkhanly.\n\nMirza Alekper Mamedkhanly — tín đồ Baha'i từ Baku, trong thư ngày 10 tháng 2 năm 1910 viết cho Tolstoy về sự kính trọng mà những người theo đạo Baha'i dành cho ông, thông báo về việc nhận được thư tháng 11 và về việc gửi \"tác phẩm mới\" của mình \"Bab Beha-Ulla và Abdul Beha\". Trong các thư năm 1909 ký tên là Mamedkhanov.\n\n¹ Ý định này vẫn chưa được thực hiện.",
       "createdAt": "2025-12-06T02:55:11.953Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764989685925",
@@ -197,7 +197,7 @@
       "processedText": "**133. Gửi S. V. Gavrilov. Ngày 18 tháng 2 năm 1910. Yasnaya Polyana.**\n\nCảm ơn anh về bức thư của anh. Đối với tôi rõ ràng là anh đang sống cuộc sống giống như tôi, nếu anh hiểu được bài viết trong hình thức khủng khiếp và bị bóp méo mà nó xuất hiện.¹ Vâng, nhiệm vụ của cuộc sống chúng ta chỉ là làm sạch vỏ bọc xác thịt của mình sao cho nguồn gốc tinh thần nằm ngoài thời gian, nằm ngoài không gian mà chúng ta sống được thể hiện trong chúng ta với sự trọn vẹn nhất có thể.\n\nNgười yêu quý anh,\n**Lev Tolstoy.**\n\nIn theo bản sao, đối chiếu với bản thảo gốc, viết trên phong bì thư của Gavrilov.\n\nSergey Vasilyevich Gavrilov (xem tập 78) trong thư từ Simbirsk ngày 13 tháng 2 năm 1910 viết về ấn tượng \"vui mừng\" mà ông nhận được từ bài viết của Tolstoy \"Giai đoạn cuối cùng của cuộc đời tôi\".\n\n¹ Về bài viết \"Giai đoạn cuối cùng của cuộc đời tôi\" xem thư số 115.",
       "createdAt": "2025-12-06T02:54:45.925Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764989629583",
@@ -215,7 +215,7 @@
       "processedText": "**130. Gửi N. P. Fedotova. Ngày 16 tháng 2 năm 1910. Yasnaya Polyana.**\n\nTôi biết có những người đã kết hôn sống với nhau như anh em. Và tôi nghĩ điều đó có thể xảy ra và là điều tốt. Nhưng tôi cũng nghĩ rằng để sống như vậy, không nhất thiết phải kết hôn. Còn việc cô cảm thấy ghê tởm với quan hệ tình dục thì điều đó rất tốt. Động vật không biết đến sự ghê tởm này, điều mà ở con người được thể hiện qua cảm giác xấu hổ. Cảm giác này phân biệt con người với động vật, và vì vậy cần phải trân trọng nó, nuôi dưỡng và củng cố nó trong bản thân, chứ không hạ mình xuống mức độ của động vật.\n\n*In theo bản sao, đối chiếu với bản thảo gốc, viết trên phong bì thư của Fedotova.*\n\n*Trả lời thư của N. P. Fedotova từ Petersburg, người viết về những phức tạp trong cuộc sống cá nhân của mình.*",
       "createdAt": "2025-12-06T02:50:42.530Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764989391202",
@@ -224,7 +224,7 @@
       "processedText": "Thư gửi Georgy Knyazev, ngày 26 tháng 1 đến 16 tháng 2 năm 1910, Yasnaya Polyana.\n\nAnh viết rằng muốn tôi giúp anh tin vào cuộc sống sau khi chết.\nTôi hoàn toàn không thể làm điều đó, vì bản thân tôi không có đức tin vào \"cuộc sống sau khi chết\", và không ai có thể có được.\nTôi không tin vào cuộc sống sau khi chết, mà chỉ tin vào lẽ thường, chính lẽ thường đó nói với tôi rằng, mặc dù không thể có cuộc sống sau khi chết, nhưng bản chất của điều mà tôi nhận thức là \"tôi\" của mình không thể bị tiêu diệt.\n\nCòn về những lý luận chỉ làm tối tăm mọi thứ về tiến hóa, mà anh nghĩ rằng chúng giải thích được điều gì đó, thì tôi cho rằng những lý luận này, dựa trên giả định về thời gian vô hạn, vừa mâu thuẫn nội tại vừa không giải thích được gì cả.\nVà tôi nghĩ như vậy bởi vì, khi hỏi linh hồn là gì, anh không thể không hiểu từ \"linh hồn\" là một thứ gì đó vô hình, và do đó nằm ngoài không gian và thời gian, nhưng trong khi đó, anh lại tự giải thích cho mình khái niệm linh hồn bằng các quá trình thuộc về thời gian.\nChính trong đó có sự mâu thuẫn thô thiển, không giải thích được gì, bởi vì thời gian, mà chúng ta không thể tránh khỏi hình dung là vô hạn ở cả hai phía, chỉ là một hình thức tư duy đặc trưng của con người, và do đó không thể giải thích được bản chất nằm ngoài thời gian mà chúng ta gọi là linh hồn.\n\nAnh hỏi nên đọc gì.\nĐể làm sáng tỏ những vấn đề mà anh quan tâm, trước hết tôi khuyên anh đọc các học thuyết đạo đức của tất cả các dân tộc, bắt đầu từ trí tuệ Bà-la-môn cổ đại, Đức Phật, Khổng Tử, Chúa Giê-su và đến Kant, Schopenhauer và nhiều, nhiều nhà tư tưởng thời đại chúng ta.\nNhững chỉ dẫn về các nhà tư tưởng cổ đại cũng như hiện đại này, anh sẽ tìm thấy dưới dạng súc tích nhất trong những cuốn sách do tôi biên soạn, trong \"Vòng đọc\" và \"Trên mỗi ngày\".\nTôi sẽ gửi cả \"Vòng đọc\", nhưng tôi không có.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T02:49:51.203Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764989328649",
@@ -251,7 +251,7 @@
       "processedText": "Thư gửi Nina Nikitina, ngày 13-14 tháng 2 năm 1910, Yasnaya Polyana.\n\nNgày 13 tháng 2 năm 1910, Yasnaya Polyana.\n\nToàn bộ vấn đề là không nên nghĩ về việc làm thế nào để phục vụ người khác, mà chỉ nghĩ về việc làm sao không gây hại hoặc không ăn bánh mì một cách vô ích, không làm gương xấu về cuộc sống, và cố gắng tự mình trở nên tốt hơn.\n\nChỉ bằng cách này và bằng phương tiện hiệu quả nhất, ta mới có thể giúp đỡ người khác, và đây là phương tiện duy nhất trong khả năng của mỗi con người.\n\nHãy suy nghĩ về điều này và thử dồn sức lực của bạn vào đó.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T02:47:15.218Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764989169809",
@@ -260,7 +260,7 @@
       "processedText": "Thư gửi P. V. Shchulepnikov, ngày 13 tháng 2 năm 1910, Yasnaya Polyana.\n\nThưa Pavel Vasilyevich,\n\nTôi nghĩ ông đã hành động rất tốt khi bày tỏ sự đồng cảm của ông, rất hiếm gặp trong xã hội chúng ta, thật đáng tiếc, với sự phản đối dũng cảm của những người này chống lại hành động của chính phủ, bằng việc tiếp nhận vào tầng lớp quý tộc những người đã bị loại khỏi nó.\n\nTôi không nghĩ ông có lý do để tự trách mình về những hậu quả bất lợi cho những người tham gia vào việc tiếp nhận này. Mỗi người trong số họ đều biết mình đang làm gì khi tham gia vào việc tiếp nhận.\n\nCòn về câu hỏi liệu ông có nên tiếp tục giữ lối suy nghĩ và hoạt động mà ông đã theo trước đây hay không, theo như tôi hiểu, đó là việc bày tỏ và thực hiện trong cuộc sống những quan điểm của mình một cách tự do và độc lập với khuynh hướng tạm thời và ghê tởm hiện nay của chính phủ, thì tôi không thể không đồng cảm với lối suy nghĩ và hoạt động như vậy của ông trong tương lai.\n\nVới sự kính trọng hoàn toàn,\nLev Tolstoy.",
       "createdAt": "2025-12-06T02:46:09.809Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764989122287",
@@ -269,7 +269,7 @@
       "processedText": "Thư gửi Evgeny Ivanovich Popov, ngày 12 tháng 2 năm 1910, Yasnaya Polyana.\n\nGửi Evgeny Ivanovich Popov.\n\nTừ lâu tôi đã nhận được bức thư đầy nội dung quan trọng của anh, thân mến Evgeny Ivanovich, và cứ muốn trả lời từng điểm, nhưng ra là bây giờ nó đã để quá lâu, và tôi có quá nhiều việc mà sức lực lại quá ít, nên không kịp làm điều đó nữa.\n\nRất, rất thú vị và quan trọng những gì anh viết, mô tả cuộc sống của NN. Nếu tôi còn trẻ hơn, tôi sẽ ngay lập tức nói rằng điều này xảy ra vì cái này và cái kia. Nhưng bây giờ tôi thẳng thắn nói rằng tôi không biết.\n\nTôi nghĩ ý định đến với Sheerman của anh rất tốt. Tôi biết Sheerman không nhiều, nhưng ông ấy gây cho tôi cả sự kính trọng lẫn tình yêu thương, và vì thế tôi nghĩ anh sẽ ở đó thoải mái, còn anh chắc chắn sẽ hữu ích cho các con ông ấy.\n\nTạm biệt, có thể sẽ gặp lại. Tôi nhớ và yêu quý anh.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T02:45:22.287Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764989112873",
@@ -278,7 +278,7 @@
       "processedText": "Thư gửi Mirza Nasrulla Khan Nuri, ngày 12 tháng 2 năm 1910, Yasnaya Polyana.\n\nTrong mọi tôn giáo đều có cái chân thật và cái giả dối. Cái chân thật là như nhau ở tất cả các tôn giáo, và cần phải giữ lấy cái chân thật này, cái chung của tất cả các tín ngưỡng, chứ không nên nghĩ về cái khác biệt và mỗi người bảo vệ cái của riêng mình.\n\nTôi giữ lấy cái giống nhau ở tất cả các tôn giáo: trong đạo Bà-la-môn, trong Nho giáo, trong Đạo giáo, trong đạo Hồi, và quan trọng nhất, cái đáp ứng những đòi hỏi của tâm hồn tôi, và không công nhận tất cả những gì khác biệt ở tất cả. Tôi khuyên ông cũng làm như vậy.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T02:45:12.873Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764989042657",
@@ -287,7 +287,7 @@
       "processedText": "Thư gửi Moisey Zelinsky, ngày 12 tháng 2 năm 1910, Yasnaya Polyana.\n\nViệc ông phải xử sự như thế nào trong hoàn cảnh khó khăn của mình, chỉ có chính ông mới có thể quyết định.\nTuy nhiên, tôi nghĩ rằng nếu ông dồn hết sức lực vào việc giữ tình yêu thương với tất cả mọi người mà ông tiếp xúc, bất chấp sự bất đồng về niềm tin, thì lối thoát khỏi hoàn cảnh của ông sẽ tự tìm thấy.\n\nTình yêu giải quyết được mọi khó khăn.\nHãy đặt cuộc sống của ông vào tình yêu dành cho tất cả mọi người, và mọi thứ sẽ sáng tỏ và gỡ rối.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T02:44:02.657Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764988875940",
@@ -296,7 +296,7 @@
       "processedText": "Thư gửi K. A. Klishevsky, ngày 8 tháng 2 năm 1910, Yasnaya Polyana.\n\nTôi cho rằng học thuyết mà anh trình bày trong thư của anh, về việc chuộc tội lỗi của con người bằng huyết của Chúa Kitô, là một trong những học thuyết vô lý nhất, thậm chí vô nghĩa, không dựa trên bất cứ cơ sở gì, và đồng thời, là mê tín thô bỉ có hại nhất cho đời sống đạo đức của con người.\n\nTôi nghĩ như vậy bởi vì tội lỗi của người đầu tiên, mà Chúa đã trừng phạt tất cả mọi người vì tội đó, là một câu chuyện ngụ ngôn thô thiển, ngu ngốc và báng bổ, mà con người đã đáng lẽ phải quên từ lâu rồi.\n\nChúa là tình yêu, và cuộc sống mà Ngài ban cho con người là ơn phước mà con người luôn nhận được, nếu chỉ cần họ thực hiện ý chí của Đấng đã sai đến. Do đó, con người không có gì phải cứu rỗi và họ không cần đến huyết của đấng cứu rỗi nào cả, mà chỉ cần thực hiện ý chí của Chúa. Còn ý chí của Chúa là con người phải yêu thương nhau, tăng trưởng tình yêu trong chính mình.\n\n\"Chúa là tình yêu, và ai ở trong tình yêu thì ở trong Chúa, và Chúa ở trong người ấy\" (I Giăng, IV, 16).\n\nVà Chúa Kitô không nói với người Pharisê rằng điều răn chính là tin vào huyết nào đó, mà đã nói rất rõ ràng, dễ hiểu và đơn giản: hãy yêu Chúa và yêu người lân cận. Và đó là toàn bộ luật pháp.\n\nĐó là ý kiến của tôi. Chi tiết hơn anh sẽ tìm thấy trong tất cả các tác phẩm sau này của tôi.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T02:41:15.940Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764988832034",
@@ -305,7 +305,7 @@
       "processedText": "Thư gửi Alexander Modestovich Khiryakov, ngày 7 tháng 2 năm 1910, Yasnaya Polyana.\n\nĐã lâu tôi không biết gì về anh, Alexander Modestovich thân mến. Tôi biết qua Felten rằng ông ấy đã gặp anh tại phiên tòa của ông ấy, và còn nghe từ người khác rằng Chertkov đã gặp anh ở Petersburg. Tôi muốn có sự giao tiếp trực tiếp với anh.\n\nAnh sống thế nào? Tôi hy vọng là tốt, khi xét đến sức mạnh tinh thần của anh, nhưng đôi khi tôi cũng lo lắng rằng sự cô đơn có thể đè nặng lên anh. Hãy cho tôi biết về tình trạng tinh thần của anh.\n\nTôi hiểu rằng trong hoàn cảnh của anh, ý thức về sự vô tội của mình có thể tác động theo hai chiều đối lập. Tôi hy vọng rằng nó tác động theo nghĩa an ủi và nâng cao tinh thần.\n\nTôi đang sống những ngày cuối đời rất tốt, không xứng đáng, có rất nhiều việc và dường như là việc cần thiết phải làm, làm theo khả năng và sức lực của mình cho phép.\n\nSự chia ly với Chertkov rất nặng nề cho cả hai chúng tôi, đặc biệt là gây trở ngại cho công việc chung.\n\nTạm biệt. Có thể hẹn gặp lại.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T02:40:32.034Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764988783394",
@@ -314,7 +314,7 @@
       "processedText": "Thư gửi Ivan Kuzmich Gurikhin, ngày 6 tháng 2 năm 1910, Yasnaya Polyana.\n\nTôi gửi sách cho anh.\n\nNếu tôi phải tự bào chữa trước tất cả những điều bịa đặt về tôi, trong đó có cả việc anh viết trong thư, thì tôi sẽ phải dành toàn bộ thời gian rảnh rỗi của mình cho những lời bào chữa này, vì những điều bịa đặt như vậy vô cùng nhiều.\n\nVà những điều bịa đặt này đến từ những phe phái đối lập nhau, những người không hài lòng với quan điểm mà tôi bày tỏ về hoạt động của họ.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T02:39:43.394Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764988673379",
@@ -323,7 +323,7 @@
       "processedText": "Thư gửi Maria Nikolaevna Yakovleva, ngày 6 tháng 2 năm 1910, Yasnaya Polyana.\n\nMaria Nikolaevna,\n\nTôi đã nhận được thư của chị, vừa làm tôi vui, vừa làm tôi không vui: vui vì, như tôi nghĩ, ảnh hưởng tốt đẹp mà tôi đã có đối với chị, và không vui, vì sự đánh giá quá cao về tôi.\n\nVề câu hỏi của chị là nên sử dụng số tiền còn lại của chúng ta như thế nào, tôi chỉ có thể khuyên điều mà bản thân tôi làm với số tiền mà các nhà hát hoàng gia trả cho tôi về các vở kịch của tôi. Tôi cho từng chút một, 5, 10 kopeck cho những người lang thang đi qua, những người mà có rất nhiều, và luôn luôn, khi có thời gian, tôi bắt chuyện về tệ say rượu và khuyên họ đừng uống rượu, đừng hút thuốc, và nếu biết chữ, tôi cho những cuốn sách nhỏ về chủ đề này.\n\nTôi nghĩ rằng cuộc trò chuyện nghiêm túc như vậy của một cô gái với những người bất hạnh đó có thể có tác dụng. Và nếu có tác dụng với một trong số trăm người, thì đó là một việc làm tuyệt vời. Nếu gặp người quan tâm đến các vấn đề chung, thì tốt nên cho người đó những cuốn sách có nội dung chung về đạo đức. Những cuốn sách như vậy có ở nhà xuất bản \"Posrednik\" (Trung gian).\n\nTừ tận đáy lòng tôi chúc chị thành công trong việc chính của mọi con người, sự hoàn thiện tâm linh.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T02:37:53.379Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764988590128",
@@ -341,7 +341,7 @@
       "processedText": "Thư gửi A. I. Kozyrev, ngày 6 tháng 2 năm 1910, Yasnaya Polyana.\n\nKhông bao giờ nên tự biện hộ cho mình. Và khi gặp khó khăn, chỉ nên tìm nguyên nhân trong chính mình. Nếu anh tự trách mình, thì mọi khó khăn sẽ có ích cho tâm hồn. Còn nếu tự biện hộ và đổ lỗi cho người khác hoặc hoàn cảnh, thì mọi khó khăn sẽ có hại cho cả tâm hồn lẫn thể xác.\n\nVà vì vậy tôi nghĩ rằng không nên lấy tiền và không nên bỏ đi, còn nếu đã lấy tiền rồi thì phải ăn năn và cố gắng trả lại.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T01:11:00.740Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764983198340",
@@ -359,7 +359,7 @@
       "processedText": "Thư gửi P. I. Soldatenkov, ngày 31 tháng 1 năm 1910, Yasnaya Polyana.\n\nKhông có lý do gì để giải thích về các phép lạ, bởi vì những phép lạ được quy cho các vị thầy của đức tin, Krishna, Phật, Chúa Kitô, Mohammed và nhiều người khác, đều là những điều bịa đặt và sai lầm chung của con người, của những người hiểu kém về giáo lý và muốn dùng những điều bịa đặt như vậy để xác nhận chân lý của nó. Trong khi đó, không gì làm suy yếu bản chất của giáo lý nhiều hơn chính những điều bịa đặt như vậy. Và vì vậy, để hiểu rõ ràng bất kỳ giáo lý đạo đức, tôn giáo nào, trước hết cần loại bỏ khỏi đó tất cả những câu chuyện về phép lạ của các vị sáng lập, coi chúng như những điều bịa đặt của con người, không cần thiết và có hại. Và điều này đặc biệt cần thiết đối với giáo lý Kitô giáo sâu sắc, rõ ràng và vĩ đại, vốn không cần bất kỳ sự củng cố nào và đang bị bóp méo một cách tàn nhẫn bởi những câu chuyện không cần thiết và thẳng thắn mà nói là ngu ngốc về các phép lạ của Chúa Kitô và các môn đồ của Ngài.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T01:05:29.147Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764983075068",
@@ -368,7 +368,7 @@
       "processedText": "Thư gửi A. V. Marchenko, ngày 30 tháng 1 năm 1910, Yasnaya Polyana.\n\nAnh viết rằng \"mệt mỏi khi đấu tranh với chính mình\". Trong cuộc đấu tranh với chính mình, người ta không thể mệt mỏi, bởi vì trong cuộc đấu tranh này chính là toàn bộ công việc chân chính và hạnh phúc của cuộc đời chúng ta.\n\nViệc đây là toàn bộ công việc của đời ta có thể thấy qua chỗ, trong tất cả các công việc của cuộc sống, chỉ có công việc này là không gì có thể cản trở được sự thành công của chúng ta.\n\nCòn việc đây là hạnh phúc chân thực của chúng ta, mỗi người đều có thể biết qua kinh nghiệm, nếu họ đặt mục tiêu cuộc đời mình vào cuộc đấu tranh này, tức là vào sự hoàn thiện đạo đức, tức là vào việc gia tăng tình yêu thương trong bản thân.\n\nCàng thành công trong việc này, cuộc sống của họ sẽ càng hạnh phúc và vui vẻ hơn.\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T01:04:35.068Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764983055445",
@@ -377,7 +377,7 @@
       "processedText": "Thư gửi V. A. Molochnikov, ngày 29 tháng 1 năm 1910, Yasnaya Polyana.\n\nCảm ơn rất nhiều, anh Vladímir thân yêu, vì bức thư tuyệt vời đầy niềm vui của Smirnov.\nNếu có thể, xin chuyển đến anh ấy tình yêu thương của tôi và mong muốn được phục vụ anh ấy bằng bất cứ cách nào tôi có thể.\nThật không may, tôi chẳng thể làm gì, ngoài việc dùng số tiền đáng ghét mà tôi vẫn còn.\n\nNhững con người tuyệt vời biết bao, những con người tuyệt vời biết bao!\nKhi biết đến những người như thế, người ta có thể chết đi một cách yên bình, nhưng lại không muốn chết.\n\nCòn anh thế nào?\nHãy viết về anh.\nTôi rất khỏe.\nKhông phải khiêm tốn giả tạo, mà thành thật, không xứng đáng với điều đó.\n\nGửi lời chào đến vợ anh.\nChị ấy thế nào?\n\nLev Tolstoy.",
       "createdAt": "2025-12-06T01:04:15.445Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764866061443",
@@ -386,7 +386,7 @@
       "processedText": "Thư gửi Pavel Ivanovich Biryukov, ngày 21 tháng 8 năm 1909, Yasnaya Polyana.\n\nPavel Ivanovich thân mến,\n\nTôi đang rất bình an trong lòng, rất bình an, hơn bao giờ hết, điều đó không có nghĩa là tôi rất tốt, trái lại, tôi cảm thấy đặc biệt rõ mình xấu xa đến thế nào và xấu ở những điểm nào.\n\nTình bạn của anh, như mọi khi, tôi vẫn trân trọng.\n\nXin anh đừng quên tôi và thỉnh thoảng báo tin về anh.\n\nTôi nhận được thư của Gusev gửi từ dọc đường. Tinh thần anh ấy vẫn vững vàng.\n\nChúng ta cũng hãy cố gắng, anh và tôi.\n\nTiếc quá, đã lâu rồi chúng ta không gặp nhau.\n\nLev Tolstoy",
       "createdAt": "2025-12-04T16:34:21.443Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764866041467",
@@ -395,7 +395,7 @@
       "processedText": "**92. Gửi R. Korsakov**\nNgày 19 tháng 8 năm 1909. Yasnaya Polyana.\n\nNgày 19 tháng 8 năm 1909\nYasnaya Polyana\n\nTôi không khuyên anh thay đổi cuộc sống bên ngoài. Tất cả đều ở trong chính chúng ta. Trước hết, cần phải nhổ bật khỏi mình mọi điều xấu: dục vọng, đố kỵ, ác cảm, sự xét đoán người khác, và còn nhiều, rất nhiều thứ khác nữa. Công việc này mỗi người chúng ta đều có rất nhiều, và công việc ấy có thể làm được ở bất cứ đâu. Không có công việc nào mang lại niềm vui lớn như công việc này.\n\n*In theo bản sao chép lại của nguyên bản. Thư trả lời bức thư của R. Korsakov, công nhân nhà máy cao su (Petersburg), đề ngày 17 tháng 8 năm 1909 (dấu bưu điện). Dưới ảnh hưởng của các tác phẩm Tolstoy nhận được khi trả lời thư trước của anh ngày 8 tháng 8, Korsakov định rời thành phố về sống ở nông thôn. Anh nghi ngờ không biết mình có đủ sức không và xin sự ủng hộ.*",
       "createdAt": "2025-12-04T16:34:01.467Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764865846134",
@@ -404,7 +404,7 @@
       "processedText": "Thư gửi Vasily Andreevich Kuzin, 17 tháng 8 năm 1909, Yasnaya Polyana.\n\nVasily Andreevich,\nĐể trả lời thư của anh, tôi gửi cuốn sách của Sunderland.\nKhông nên nghĩ rằng Phúc âm là sự mặc khải thiêng liêng. Phúc âm, như mọi cuốn sách, là công trình của con người, và cần phải lấy từ đó những gì hiểu được, còn những gì không hiểu thì bỏ qua.\nMột người mẹ yêu con luôn biết cách nói chuyện với con để con hiểu mình. Vậy làm sao Thiên Chúa là tình yêu lại nói với con người theo cách mà họ không hiểu những gì Ngài nói với họ?\n\nLev Tolstoy.",
       "createdAt": "2025-12-04T16:30:46.134Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764865589795",
@@ -413,7 +413,7 @@
       "processedText": "Thư gửi Fedor Akimovich Kovalenko, 17 tháng 8 năm 1909, Yasnaya Polyana.\n\nThưa ngài Fedor Akimovich,\n\nThực hiện mong muốn của ngài, tôi trích từ cuốn sách do tôi biên soạn \"Cho mỗi ngày\" một trong những suy tư được sưu tầm ở đó:\n\nCàng tin rằng họ có thể được dẫn dắt bởi điều gì đó bên ngoài, hoạt động ngoài ý chí của họ, để thay đổi và cải thiện cuộc sống của mình, thì sự thay đổi và cải thiện đó càng khó xảy ra.\n\nLev Tolstoy.",
       "createdAt": "2025-12-04T16:26:29.795Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764865451874",
@@ -422,7 +422,7 @@
       "processedText": "**Tập 80**\n\n**81. Gửi G. Syrkin.**\n**Ngày 15 tháng 8 năm 1909. Yasnaya Polyana.**\n\nMục đích hợp lý và tốt đẹp duy nhất của con người là sự hoàn thiện tinh thần. Còn việc phục vụ con người luôn là hệ quả tất yếu của việc đạt được mục tiêu này, dù ít hay nhiều. Trong nghề y, không có gì đặc biệt xấu, nhưng cũng không có gì đặc biệt tốt. Tôi khuyên anh nên chọn một hoạt động mà bản thân nó ít cản trở sự tự hoàn thiện nội tâm hơn bất kỳ hoạt động nào khác. Tôi nghĩ rằng nghề y, với năm năm học đại học, sẽ cản trở rất nhiều.\n\n*Bản in theo bản sao của bản gốc.*\n\n*Đây là thư trả lời Grigory Syrkin từ Bakhmut, tỉnh Ekaterinoslav, ngày 13 tháng 8 năm 1909. Syrkin viết rằng khuynh hướng học y của anh bị cản trở bởi thái độ tiêu cực của Tolstoy đối với y học. Anh xin Tolstoy giúp anh thoát khỏi \"tình trạng không rõ ràng\".*",
       "createdAt": "2025-12-04T16:24:11.874Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764865437128",
@@ -431,7 +431,7 @@
       "processedText": "**Tập 80**\n\n**80. Gửi M. Slavutsky.**\n**Ngày 15 tháng 8 năm 1909. Yasnaya Polyana.**\n\nBạn đang thuyết phục một người đã tin rồi.¹\n\nTôi đã đọc thư của bạn với niềm vui lớn. Điều bạn nói trong thư, tôi luôn nói với tất cả những người cho rằng² có thể thay đổi và sắp xếp cuộc sống của con người. Việc của chúng ta — chỉ là công việc nội tâm giải thoát khỏi nghiệp chướng. Điều mà người ta gọi là ác, luôn luôn là thiện. Tôi không ngừng, không phải bằng lời nói mà bằng cả tâm hồn, cảm ơn Đấng mà tôi gọi là Thượng đế.\n\n*In theo bản sao chép của bản gốc.*\n\n*Trả lời thư từ Odessa của nhà thần học M. Slavutsky (sinh năm 1870) ngày 11 tháng 8 năm 1909 với những suy tư triết học.*\n\n¹ [Anh đang thuyết phục người đã tin.]\n² Trong bản nháp: mong muốn\n\n*M. Slavutsky đã viết thư cho Tolstoy thêm ba lần nữa trong năm 1909: ngày 22 tháng 8, 8 tháng 9 và 9 tháng 11 về cùng chủ đề. Các thư không được trả lời.*",
       "createdAt": "2025-12-04T16:23:57.128Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764865362386",
@@ -440,7 +440,7 @@
       "processedText": "Thư gửi Igor Evgenievich Prozorov, 10 tháng 8 năm 1909, Yasnaya Polyana.\n\nĐiều nặng nề và đau đớn đối với anh, sự bất đồng với anh của người thân và những người gần gũi cũng như những lời trách móc của họ, không thể không xảy ra với những người lớn tuổi, coi niềm tin của họ là chắc chắn đúng đắn, khi họ thấy một người trẻ tuổi hiểu về tôn giáo theo cách mà phần lớn niềm tin của họ dường như bị phủ nhận.\n\nĐây là số phận chung của tất cả những người chân thành tìm kiếm điều quan trọng nhất trên đời, chân lý tôn giáo.\n\nLời khuyên của tôi là hãy tránh, trong chừng mực có thể, các cuộc trò chuyện về đức tin, và quan trọng nhất, trong mọi quan hệ với mọi người nói chung và đặc biệt với những người thân, hãy tuân thủ điều răn chính của đức tin Kitô giáo theo ý nghĩa chân chính của nó mà anh theo đuổi, điều răn về sự khiêm nhường và tình yêu thương.\n\nKhông gì hơn việc thực hiện điều răn này có thể khiến những người không đồng ý với anh đồng ý với anh.\n\nLev Tolstoy.",
       "createdAt": "2025-12-04T16:22:42.386Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764865252947",
@@ -458,7 +458,7 @@
       "processedText": "Thư gửi V. Vasiliev, 8 tháng 8 năm 1909, Yasnaya Polyana.\n\nKhông có các công xã, và ngay cả khi có, tôi cũng không khuyên anh gia nhập chúng.\nĐể không sống dựa vào gánh nặng của nhân dân, cần phải sống ở nơi mình đang sống, cố gắng hạn chế nhu cầu của mình càng nhiều càng tốt và tăng cường tình yêu thương đối với mọi người trong mình.\nĐiều này nằm trong quyền lực của chúng ta, nhưng thay đổi hình thức cuộc sống của mình phần lớn không nằm trong quyền lực của chúng ta.\nĐó là lời khuyên của tôi.\n\nLev Tolstoy.",
       "createdAt": "2025-12-04T16:19:30.978Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764804104365",
@@ -503,7 +503,7 @@
       "processedText": "Thư gửi Tornich, ngày 25 tháng 7 năm 1909, Yá. P.\n\nAnh em thân mến,\n\nHoàn cảnh mà anh đang ở không phải là hoàn cảnh đặc biệt của riêng anh, mà tất cả những người muốn sống cuộc sống theo Chúa Kitô đều ở trong hoàn cảnh như vậy. Và lời dạy của Chúa Kitô vĩ đại ở chỗ không có hoàn cảnh nào mà việc thực hiện nó là không thể, vì việc thực hiện nó chỉ nằm ở một điều: tình yêu đối với Thiên Chúa và người lân cận.\n\nTình yêu đối với Thiên Chúa là tình yêu đối với sự hoàn hảo cao nhất, tình yêu đối với người lân cận là sự tôn trọng và yêu thương như nhau đối với tất cả mọi người. Và cả hai tình yêu đó đều có thể được thể hiện trong bất kỳ hoàn cảnh nào.\n\nLev Tolstoy",
       "createdAt": "2025-12-03T22:59:00.666Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764802703089",
@@ -512,7 +512,7 @@
       "processedText": "Thư gửi Alexander Nikolayevich Solovyov, ngày 25 tháng 7 năm 1909, Yasnaya Polyana.\n\nTôi trả lời anh, anh em Alexander thân mến, cả thư của anh gửi tôi và những bức thư của anh mà Molochnikov, cảm ơn anh ấy, chuyển cho tôi, và những cuộc trò chuyện về anh mà tôi đã có với người bạn của anh là Pavlov.\n\nTôi biết rằng khó khăn đối với anh, anh em thân mến. Đối với tôi, sự cứu rỗi trong những phút khó khăn chỉ có một, nhưng anh biết tất cả điều này rồi: quên đi cá nhân cả của mình và của những người khác và những phán xét của họ, mà đứng trước những yêu cầu của tâm hồn cao nhất của mình, trước mặt Thiên Chúa, và ngay lập tức trở nên nhẹ nhàng, cho đến khi lại bị cuốn vào.\n\nXin Chúa giúp anh không bị cuốn vào, và nếu bị cuốn vào, hãy nhanh chóng lấy lại bình tĩnh.\n\nĐối với tôi, nhưng sao phải nói về tôi, thật tốt đẹp khi không bị cuốn vào, đến nỗi chỉ biết cảm ơn Đấng, điều đã ban cho tôi chính mình, cuộc sống.\n\nTôi gửi cho anh bài cầu nguyện mà tôi thích lặp lại khi bị cuốn vào và để không bị cuốn vào.\n\nHôn anh một cách anh em.\n\nLev Tolstoy.",
       "createdAt": "2025-12-03T22:58:23.089Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764802653702",
@@ -521,7 +521,7 @@
       "processedText": "Thư gửi Ivan Nikolayevich Deryabin, ngày 25 tháng 7 năm 1909, Yasnaya Polyana.\n\nĐã nhận được, anh em Ivan, thư của anh với mô tả thú vị về cuộc sống trước đây của anh. Anh dường như đang chờ đợi lời khuyên và sự hỗ trợ từ tôi. Không ai có thể hỗ trợ anh và làm nhẹ bớt hoàn cảnh của anh, ngoại trừ Thiên Chúa, vị Thiên Chúa sống trong anh và trong tất cả chúng ta, và biểu hiện trong chúng ta bằng tình yêu đối với tất cả mọi người. Hãy kết hợp với Ngài, chỉ sống theo ý chí của Ngài, và ý chí của Ngài là chúng ta yêu thương tất cả mọi người, đặc biệt là những người làm điều xấu với chúng ta, và cuộc sống của anh, ngay cả trong tù, cũng sẽ nhẹ nhàng và tốt đẹp hơn, vui vẻ hơn nhiều so với cuộc sống mà anh đã sống khi còn tự do.\n\nTôi có những người bạn trẻ từ chối phục vụ quân sự như anh, một người đang chấp hành án tù năm thứ tư, vì sau ba năm tù lại từ chối tuyên thệ, và khi đọc thư của họ, và nghe về họ từ những người bạn đã đến thăm họ, người ta chỉ cảm động trước sự bình tĩnh và dịu dàng của họ, và mong muốn ở vị trí của họ.\n\nHãy viết thư cho tôi, biết liệu tôi có thể giúp ích gì cho anh không. Tôi gửi cho anh bài cầu nguyện ngắn mà tôi đọc cho bản thân mình. Nó mang lại sức mạnh cho tôi và làm tôi bình tĩnh.\n\nTôi sẽ chờ thư của anh.\n\nAnh em yêu quý anh,\n\nLev Tolstoy.",
       "createdAt": "2025-12-03T22:57:33.702Z",
       "pinned": false,
-      "status": "done"
+      "status": "pending"
     },
     {
       "id": "1764802580628",
@@ -4525,6 +4525,222 @@
       "text": "58. Gửi Arvid Järnefelt.\nNgày 28 tháng 2 năm 1908. Yasnaya Polyana.\n\nRất vui khi nhận được thư của anh, Arvid thân mến, dù tôi thấy buồn khi biết anh đã phải trải qua những lúc khó khăn.¹ Chúng ta hãy cùng kiên cường lên, người bạn thân mến: đối với một Kitô hữu, không có gì là xấu xa ngoại trừ những gì ở bên trong chính mình. Mà những gì ở bên trong mình thì nằm trong quyền kiểm soát của chính mình.\n\nCòn về bức thư từ các nhà báo của anh, tôi hoàn toàn không thể thực hiện nguyện vọng của họ, bởi vì tôi không biết và không thể biết đến bất kỳ nước Phần Lan nào, cũng như tôi không biết và không thể biết đến bất kỳ nước Nga nào. Tôi chỉ biết những con người đang sống ở những nơi khác nhau trên quả địa cầu này, họ gần gũi với tôi hơn hay kém không phải vì lý do kỳ lạ rằng họ tự coi mình là thần dân của chính phủ này hay chính phủ khác, hay họ quen nói ngôn ngữ này hay ngôn ngữ kia; mà là vì mức độ chúng ta được kết nối với nhau bởi cùng một sự hiểu biết² về cuộc sống và tình yêu thương lẫn nhau xuất phát từ sự hiểu biết đó.\n\nKhông có điều kiện sống nào mà con người — những người lương thiện — lại có thể thực hiện những tội ác khủng khiếp như những tội ác nhân danh lòng yêu nước. Tôi hiểu rằng những dân tộc bị áp bức như người Ba Lan, người Phần Lan, có thể đặc biệt dễ dàng sa vào cám dỗ kinh khủng này, nhưng tôi vẫn không thể không cảm thấy thương xót cho những người mắc phải nó. Đó là tất cả những gì tôi có thể nói với họ.\n\nVĩnh biệt anh, người bạn Arvid thân mến, làm ơn hãy viết thư cho tôi thường xuyên hơn. Tôi sẽ rất vui khi được giao tiếp với anh, bởi vì từ tận đáy lòng, tôi yêu mến anh.\n\nLev Tolstoy. Ngày 28 tháng 2 năm 1908.\n\nChú thích:\nPhần đầu của bức thư được in theo bản thảo tay, phần thứ hai theo bản gốc đánh máy. Trên tờ bản thảo thứ hai, Tolstoy đã gạch bỏ đoạn văn thứ hai, và toàn bộ bức thư đã được đánh máy lại (đoạn này ở bản biên tập mới). Bản gốc đánh máy và tờ bản thảo thứ nhất (chưa sửa) đã được gửi cho người nhận. Trong bản gốc, chữ ký và ngày tháng đã bị cắt đi. Chúng tôi phục hồi dựa trên ấn phẩm trong tờ \"Ogonek\".\n\nLần đầu tiên được công bố gần như toàn bộ trên tạp chí Phần Lan \"Valvoja\" ngày 10 tháng 4 năm 1908 (theo lịch mới). Được in lại trên các báo Nga ngày 29 tháng 3 năm 1908, và trên tạp chí \"Ogonek\" năm 1908, số 14 — một phần bức thư, chữ ký và ngày tháng được sao chép nguyên bản. Được công bố đầy đủ trong PTS (Thư từ Lev Tolstoy), tập II, số 506.\n\nVề Arvid Alexandrovich Järnefelt (1861–1933), xem tập 68, trang 23. Đây là thư trả lời thư của Järnefelt ngày 7 tháng 3 năm 1908 (lịch mới). Järnefelt đã thay mặt mình và một nhóm các nhà hoạt động xã hội, văn sĩ để đề nghị Tolstoy phát biểu về các vấn đề của Phần Lan. Kèm theo thư là một bản kiến nghị lưu hành, hiện không còn lưu giữ trong kho lưu trữ.\n\n¹ A. Järnefelt viết: \"Xin thứ lỗi cho tôi vì đã lâu không viết thư cho ngài, nhưng cuộc sống của tôi suốt thời gian qua rất khó khăn, mà lòng yêu kính ngài đã không cho phép tôi than vãn.\" ² Phần tiếp theo được in theo bản gốc đánh máy.",
       "processedText": "",
       "createdAt": "2025-12-25T06:12:31.908Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "3ef4a71c-5d0d-41f0-8e7b-0e1f03a08e23",
+      "book": "TOM 78",
+      "text": "59. Gửi Đại công tước Nikolai Mikhailovich.\nNgày 28 tháng 2 năm 1908. Yasnaya Polyana.\n\nRất cảm ơn Ngài, Nikolai Mikhailovich thân mến, vì bức thư tử tế của Ngài. Giờ đây tôi cảm thấy hổ thẹn khi nhớ về bức thư năm 1906 của mình.¹ Nó bắt nguồn từ việc tôi đã viết điều gì đó gay gắt và không hay về hoàng tộc.² Và tôi tự nhủ: mình đang giao thiệp với Ngài — vậy mà lại có thái độ không tốt như thế đối với những người thân thiết của Ngài. Điều đó đã thôi thúc tôi viết bức thư kia. Giờ đây tôi sẽ không viết như vậy nữa. Ngài không thể tưởng tượng được cuộc sống thay đổi thế nào khi tiến gần đến tuổi già, tức là tiến gần đến cái chết. Tôi cảm thấy rằng sự trưởng thành về tâm linh dường như tỉ lệ nghịch với bình phương khoảng cách đến cái chết, ngày càng tốt đẹp hơn. Tôi hy vọng rằng Ngài sẽ sống đến lúc đó và trải nghiệm điều này.\n\nGiờ đây, đối với tôi, điều quý giá nhất là sự giao thiệp đầy yêu thương với tất cả mọi người, bất kể họ là ai: Nga hoàng hay kẻ ăn mày. Chính vì vậy, bức thư tử tế của Ngài, thứ đã xóa tan thái độ không tốt gây ra bởi thư của tôi, đặc biệt quý giá đối với tôi. Chân thành cảm ơn Ngài. Nếu Ngài muốn gửi cho tôi những tài liệu cực kỳ thú vị mà Ngài đã viết, tôi sẽ rất biết ơn.\n\nTôi có thể bảo đảm cho sự kín đáo (discrétion³) của mình và của con gái tôi, người duy nhất chép lại các bức thư của tôi.\n\nVĩnh biệt Ngài, tôi xin thân ái siết chặt tay Ngài. Người yêu mến Ngài, Lev Tolstoy.\n\nChú thích:\nBản gốc được đánh máy và ghi ngày tháng, chữ ký viết tay. Được công bố lần đầu trên tờ \"Di sản Văn học\" (Literaturnoye Nasledstvo), số 37-38, Moscow 1939, trang 323.\n\nVề Đại công tước Nikolai Mikhailovich (1859–1918), xem tập 73, trang 166. Đây là thư trả lời thư của Đại công tước Nikolai Mikhailovich ngày 2 tháng 2 năm 1908.\n\nSau bức thư của Tolstoy gửi cho mình vào năm 1905, Nikolai Mikhailovich đã không dám viết cho Tolstoy nữa và chỉ đến bây giờ, sau cuộc trò chuyện với P. A. Sergeenko — người thông báo về mong muốn của Tolstoy muốn có thông tin về thời gian biểu hàng ngày của các Nga hoàng — ông mới cho phép mình viết thư. Kèm theo thư, ông đã gửi các tài liệu này, và ngoài ra còn hỏi liệu Tolstoy có quan tâm đến các đoạn trích từ thư từ của Nikolai I liên quan đến thời điểm xét xử và hành hình những người thuộc nhóm Decembrist (Cách mạng tháng Chạp) hay không.\n\n¹ Trong bức thư ngày 14 tháng 9 năm 1905 (chứ không phải 1906), Tolstoy đã viết cho Nikolai Mikhailovich rằng trong mối quan hệ của họ \"có điều gì đó không tự nhiên\" và liệu có tốt hơn là nên chấm dứt nó (xem tập 76). ² Tolstoy đã viết gay gắt về các Nga hoàng trong bài báo \"Điều cần thiết duy nhất\" (xem tập 36). ³ [sự kín đáo/khiêm tốn] Nikolai Mikhailovich đã gửi các tài liệu về nhóm Decembrist vào giữa tháng Ba. Về ấn tượng của Tolstoy đối với những tài liệu này, có ghi chép trong Nhật ký tập 2 (G, 2) ngày 17 tháng 3 (trang 115).",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:14:32.915Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "ad853f7e-aa41-46ad-81c4-edb35adbe6ab",
+      "book": "TOM 78",
+      "text": "60. Gửi M. A. Stakhovich.\nNgày 28 tháng 2 năm 1908. Yasnaya Polyana.\n\nMikhail Alexandrovich thân mến, tôi biết rằng anh thực lòng yêu quý tôi, yêu quý không chỉ với tư cách một nhà văn mà còn với tư cách một con người, và hơn nữa, anh là một người nhạy cảm, anh sẽ hiểu cho tôi. Chính vì vậy mà tôi tìm đến anh với một lời thỉnh cầu lớn, rất lớn. Lời thỉnh cầu của tôi là anh hãy chấm dứt việc tổ chức lễ kỷ niệm sắp tới này, điều mà ngoài sự đau khổ và — tệ hơn cả sự đau khổ — là một hành vi tồi tệ về phía tôi, sẽ không mang lại cho tôi điều gì khác. Anh biết rằng lúc nào cũng vậy, và đặc biệt là ở tuổi của tôi, khi đã quá gần kề cái chết — anh sẽ biết điều này khi về già — không có gì quý giá hơn tình yêu thương của mọi người. Và chính tình yêu thương này, tôi e rằng, sẽ bị hủy hoại bởi lễ kỷ niệm này. Ngày hôm qua tôi có nhận được thư từ Công chúa Dondukova-Korsakova,¹ người đã viết cho tôi rằng tất cả những người theo Chính thống giáo sẽ bị xúc phạm bởi lễ kỷ niệm này. Tôi chưa bao giờ nghĩ về điều đó, nhưng những gì cô ấy viết là hoàn toàn công bằng. Không chỉ ở những người này, mà ở nhiều người khác nữa, nó sẽ gây ra cảm xúc không tốt đối với tôi. Và đó là điều làm tôi đau đớn nhất. Những người yêu quý tôi, tôi biết họ, và họ biết tôi, nhưng đối với họ, để bày tỏ cảm xúc của mình thì không cần bất kỳ hình thức bên ngoài nào. Vậy nên đây là lời thỉnh cầu khẩn thiết của tôi gửi đến anh: hãy làm những gì có thể để hủy bỏ lễ kỷ niệm này và giải phóng cho tôi. Tôi sẽ mãi mãi rất, rất biết ơn anh.²\n\nNgười yêu mến anh, Lev Tolstoy. Ngày 28 tháng 2 năm 1908.\n\nChú thích:\nĐược in lại từ tạp chí \"Ogonek\" năm 1908, số 14 ngày 6 tháng 4, nơi lần đầu tiên được công bố đầy đủ và in sao nguyên bản. Bản gốc được đánh máy, chữ ký và ngày tháng viết tay. Được đọc ghi âm qua máy quay đĩa (phonograph). Một đoạn trích đã được công bố vào ngày 28 tháng 3 năm 1908 trên nhiều tờ báo (trong các thông báo về việc giải thể Ủy ban Sáng kiến).\n\nVề Mikhail Alexandrovich Stakhovich (1861–1923), xem tập 63, trang 190.\n\nCác công việc chuẩn bị cho lễ kỷ niệm trọng thể 80 năm ngày sinh của Tolstoy (28 tháng 8 năm 1908) được bắt đầu theo sáng kiến của M. A. Stakhovich. Ngày 7 tháng 1, tại buổi tối văn học - âm nhạc tôn vinh Tolstoy do Hội các trường đại học nhân dân Petersburg tổ chức, M. M. Kovalevsky, sau bài báo cáo về tầm ảnh hưởng thế giới của Tolstoy, đã đề xuất tổ chức kỷ niệm tôn vinh Tolstoy trên toàn thế giới và thành lập một văn phòng quốc tế gồm các hoạt động xã hội, đại diện khoa học và nghệ thuật. Tại buổi tối đó, một Ủy ban Sáng kiến tạm thời đã được thành lập. Tại cuộc họp ngày 18 tháng 1, M. M. Kovalevsky được bầu làm chủ tịch, V. G. Korolenko và I. E. Repin làm phó chủ tịch, M. A. Stakhovich làm thư ký. Ủy ban đặt nhiệm vụ tổ chức dư luận, gửi lời kêu gọi và triệu tập một đại hội vào tháng 5 để bầu ra Ủy ban Hành động có thẩm quyền. Ủy ban dự định biến lễ kỷ niệm của Tolstoy thành một ngày lễ quốc gia hoành tráng tại Moscow.\n\nVào ngày 19 tháng 2, ủy ban đã thông qua văn bản kêu gọi công bố trên báo chí. Ủy ban bắt đầu nhận được thư từ khắp nơi trên thế giới; có cả những bức thư thô lỗ và nhiều bài thơ. Tuy nhiên, \"Liên minh nhân dân Nga\" (Black Hundreds) đã cố gắng ngăn cản công việc chuẩn bị, và trên các trang báo của họ hàng ngày đều xuất hiện các bài viết lăng mạ. Thư ký M. A. Stakhovich đã ra nước ngoài để thiết lập liên lạc với các ủy ban nước ngoài tại Paris, Berlin và London.\n\nNgày 12–13 tháng 3, báo chí đưa tin về bức thư của Tolstoy gửi cho Dondukova-Korsakova (tên bà không được nêu trực tiếp). Thái độ tiêu cực của Tolstoy đối với buổi lễ sắp tới đã gây ra lo ngại lớn. Do một sự tình cờ kỳ lạ, bức thư của Tolstoy gửi Stakhovich đã không được chuyển đến đúng hạn. Sau khi từ nước ngoài trở về và nghe các tin đồn, Stakhovich đã viết thư cho S. A. Tolstaya (vợ Tolstoy) vào ngày 13 tháng 3 để xin lời khuyên. Ngày 15 tháng 3, bà Tolstaya bày tỏ lo ngại rằng lễ kỷ niệm có thể ảnh hưởng đến sức khỏe của Tolstoy. Cuối cùng, nhận được thư của Tolstoy vào ngày 17 tháng 3, Stakhovich đã viết thư lại cho Tolstoy vào ngày hôm sau với hy vọng mong muốn của ông có thể đã dịu bớt. Ngày 21 tháng 3, bà Tolstaya đánh điện cho Stakhovich yêu cầu ủy ban căn cứ vào bức thư ngày 28 tháng 2 của Tolstoy để quyết định. Tại cuộc họp ngày 22 tháng 3, Ủy ban Sáng kiến đã quyết định từ chức, nhưng để không làm gián đoạn công việc đã bắt đầu, họ quyết định chuyển đổi thành Hội mang tên L. N. Tolstoy và tiếp tục hoạt động độc lập với lễ kỷ niệm. Ngày 27 tháng 3, cuộc họp cuối cùng đã diễn ra để thông qua thông báo về lý do từ bỏ việc tổ chức lễ kỷ niệm.\n\n¹ Xem thư số 57. ² Phần tiếp theo là viết tay.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:15:39.518Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "d0f0fcfe-efc6-4132-aafd-46f8da7644e4",
+      "book": "TOM 78",
+      "text": "64. Gửi M. M. Stasyulevich.\nNgày 5 tháng 3 năm 1908. Yasnaya Polyana.\n\nKính thưa Mikhail Matveevich,\n\nTruyện ngắn đính kèm đây được S. T. Semenov gửi cho tôi với lời thỉnh cầu đề xuất đăng trên tạp chí của ông và bày tỏ ý kiến về nó.¹ Truyện ngắn này rất tốt,² cũng tốt như những truyện đầu tay của Semenov,³ vì vậy tôi mạnh dạn thực hiện lời nhờ vả của anh ấy để giới thiệu nó với ông. Tôi nghĩ rằng ông cũng sẽ thích nó và sẽ đón nhận nó đúng với giá trị của tác phẩm; về phía mình, tôi sẽ rất biết ơn ông vì đã thực hiện thỉnh cầu này của tôi. Rất vui vì sau một khoảng thời gian dài như vậy⁴, tôi có cơ hội được gửi tới ông cái bắt tay thân ái từ trong tâm tưởng và nhắc ông nhớ về một người quen cũ thực lòng kính trọng ông: Lev Tolstoy.\n\nNgày 5 tháng 3 năm 1908.\n\nChú thích:\nCông bố lần đầu trong cuốn sách: \"M. M. Stasyulevich và những người đương thời qua thư từ của họ\", tập V, St. Petersburg 1913, trang 329.\n\nVề Mikhail Matveevich Stasyulevich (1826–1911), xem tập 62, trang 436–437.\n\n¹ Kèm theo thư ngày 4 tháng 3 năm 1908 (lịch mới), S. T. Semenov từ Geneva đã gửi truyện ngắn \"Từ cuộc đời của Makarka\" với lời nhờ giới thiệu nó cho ban biên tập tờ \"Vestnik Evropy\" (Thông báo châu Âu). ² Trong Nhật ký tập 2 (G, 2) ghi ngày 5 tháng 3 năm 1908: \"Hôm nay tại bữa trưa, Lev Nikolaevich đã so sánh truyện này với vở kịch 'Vua Đói' của L. Andreyev mà ông mới đọc gần đây, và nhận thấy rằng sự miêu tả giản dị, tự nhiên của Semenov cảm động hơn nhiều và tạo ra ấn tượng mạnh mẽ hơn sự chồng chất những nỗi kinh hoàng và hiệu ứng của Andreyev. Lev Nikolaevich thậm chí còn thấy rằng chi tiết cái chết của cậu bé dưới bánh xe máy móc ở nhà máy trong truyện của Semenov là dư thừa; ngay cả khi không có sự việc ngoại lệ đó, sự miêu tả chân thực và giản dị về bối cảnh lao động nhà máy thông thường đã đưa lại hình ảnh xác thực về điều kiện sống khắc nghiệt của công nhân\" (trang 107). ³ Xem lời tựa của Tolstoy cho cuốn \"Truyện nông dân\" của S. T. Semenov, tập 29. ⁴ Bức thư cuối cùng gửi M. M. Stasyulevich (một mẩu giấy ngắn) là từ ngày 17 tháng 9 năm 1904, trước đó Tolstoy có viết vào năm 1880. Trong thư trả lời ngày 12 tháng 3, Stasyulevich viết: \"Ngay lúc này tôi đang kết thúc việc in phần văn học cho số tháng Tư, còn số tháng Năm thì đã chật kín các bài viết được chấp nhận. Giống như trong truyện của Gogol, nhà thờ đã chật cứng người nhưng khi viên thị trưởng đến thì vẫn tìm được chỗ. Điều tương tự cũng sẽ xảy ra lúc này: Semenov, sau sự chứng thực của Ngài, sẽ biến thành viên thị trưởng; tóm lại, tôi sẽ in bài của anh ấy trong số tháng Năm\". Thực tế, truyện của Semenov đã được in trong \"Vestnik Evropy\" số 5 năm 1908.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:16:39.463Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "a70678ce-4679-46ba-8369-b09e3adacfaf",
+      "book": "TOM 78",
+      "text": "66. Gửi I. F. Nazhivin.\nNgày 9 tháng 3 năm 1908. Yasnaya Polyana.\n\nNgười bạn thân mến Ivan Fedorovich. Tôi vừa đọc xong cuốn sách tuyệt vời của anh: \"Tiếng nói của các dân tộc\"¹, và muốn gửi lời cảm ơn anh về cuốn sách đó. Khi anh gửi những bức thư của Ikonnikov², những thứ luôn làm tôi xúc động sâu sắc, hãy viết thêm đôi lời, nếu không thì cảm thấy hơi xa cách. Gia đình anh thế nào rồi? Sức khỏe của con gái anh ra sao? Cho tôi gửi lời chào tới nhà mình.\n\nTôi — thật lạ khi nói ra điều này — càng sống lâu tôi lại càng thấy tốt đẹp hơn. Tưởng như chẳng còn gì tốt hơn được nữa, vậy mà nó vẫn cứ tốt hơn.\n\nTạm biệt anh. L. T. Ngày 9 tháng 3 năm 1908.\n\nChú thích:\nMột đoạn trích lần đầu được công bố trong hồi ký của I. F. Nazhivin \"Về Lev Nikolaevich\" — \"Niên giám Tolstoy quốc tế\", Moscow 1909, trang 161–185. Công bố đầy đủ trong cuốn sách của Nazhivin \"Từ cuộc đời của L. N. Tolstoy\", Moscow 1911, trang 151.\n\n¹ Tập sách \"Tiếng nói của các dân tộc\", tập I, Moscow 1908 do Iv. Nazhivin biên soạn. Tolstoy đặc biệt thích bài viết của Vivekananda \"Thượng đế và con người\". Xem thư số 75. ² A. I. Ikonnikov. Xem chú thích 2 của thư số 39.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:17:23.372Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "b260bc20-04fc-4894-b676-7e26d26102ef",
+      "book": "TOM 78",
+      "text": "67. Gửi T. L. Sukhotina.\nNgày 10 tháng 3 năm 1908. Yasnaya Polyana.\n\nTania yêu quý, cha có lỗi với con vì đến tận bây giờ vẫn chưa trả lời bức thư ngày 15 tháng 2 của con. Mong con hãy lấy lý do là cha cứ muốn viết sao cho \"thật tốt\", để rồi cuối cùng lại chẳng viết được gì cả làm lời xin lỗi cho cha. Trước hết là việc con nhờ: cha gửi kèm theo đây các tấm bưu thiếp đã ký tên.¹ Còn đối với tạp chí Good Health, con hãy trả lời như sau:\n\nTôi đã ngừng ăn thịt cách đây khoảng 25 năm, tôi không cảm thấy bất kỳ sự suy yếu nào khi ngừng ăn thịt và chưa bao giờ cảm thấy dù chỉ là một chút thiếu hụt hay thèm muốn ăn thịt. So với những người cùng độ tuổi (những người bình thường), tôi cảm thấy mình khỏe mạnh và cường tráng hơn. Tuy nhiên, tôi không có cơ sở để khẳng định, dựa trên kinh nghiệm, rằng điều này là nhờ việc không ăn thịt. Nhưng tôi nghĩ rằng việc không ăn thịt có lợi cho sức khỏe, hay đúng hơn, việc ăn thịt là có hại, bởi vì kiểu ăn uống đó là vô đạo đức; mà bất cứ điều gì vô đạo đức thì luôn gây hại cho cả linh hồn lẫn thể xác. Người xưa có câu: mens sana in corpore sano (một tâm hồn minh mẫn trong một cơ thể tráng kiện),² nhưng chúng ta nên nói ngược lại: sức khỏe của tâm hồn, tức là việc tuân theo các quy luật của nó (quy luật đạo đức), sẽ mang lại sức khỏe cho cơ thể. Chỉ vậy thôi. Nếu con muốn, hãy dịch đoạn này và gửi đi với chữ ký của cha.³\n\nSức khỏe của cha, cả về thể chất và đặc biệt là tinh thần, đang rất, rất tốt. Có vẻ như không thể tốt hơn được nữa, vậy mà mỗi ngày trôi qua nó lại càng tốt hơn. Cha đang cố gắng hết sức để chịu đựng (vì không thể ngăn lại được) cái sự ồn ào đang náo động xung quanh cái tên tuổi của cha, và dần dần cố gắng nói ra những điều mà có lẽ ai đó đang cần, và cha cảm thấy rằng cha biết điều đó. Về con, con gái yêu quý, cha thường nghĩ đến con với tình yêu lớn lao và cả sự lo sợ về tình yêu của con (không phải tình yêu, mà là sự quyến luyến thái quá) dành cho bé Tanichka. Để giảm bớt tình yêu khủng khiếp⁴ này và mang lại cho nó sự đúng mực, chỉ có cách là làm tăng thêm ở phía bên kia bàn cân tình yêu đối với Chúa, đối với cái thiện và đối với người lân cận — không phải người thân yêu như bé Tanichka, mà là người khó ưa, như là tạo vật khó ưa nhất trên đời.\n\nHôn con, Misha⁵ và cả bé con nữa. Cha rất mong ngày gặp mặt.⁶\n\nL. T.\n\nChú thích:\nĐây là phần viết thêm vào thư của S. A. Tolstaya. Các đoạn trích đã được công bố trong bài báo của I. Perper \"Lev Nikolaevich Tolstoy với tư cách là người ăn chay\" — \"Tạp chí Ăn chay\" 1909, số 1, trang 18, và trong cuốn \"Tiểu sử L. N. Tolstoy\" của P. I. Biryukov, tập IV, Moscow - Petersburg 1923, trang 147–148.\n\n¹ Trong thư ngày 15 tháng 2 năm 1908, T. L. Sukhotina có xin ba chữ ký trên các tấm bưu thiếp gửi kèm cho những người quen của cô. ² [Tâm hồn khỏe mạnh trong một cơ thể khỏe mạnh.] ³ Ban biên tập tạp chí Mỹ Good Health, thông qua T. L. Sukhotina, đã đề nghị Tolstoy cho biết việc ăn chay đã ảnh hưởng thế nào đến các hoạt động thể chất và trí tuệ của ông. T. L. Sukhotina đã dịch phần trả lời này của Tolstoy sang tiếng Anh và gửi cho ông ký. Bức thư đã được gửi đi vào cuối tháng 3 hoặc đầu tháng 4. Văn bản tiếng Anh và ngày chính xác của bức thư gửi ban biên tập hiện không rõ. ⁴ Đoạn tiếp theo bắt đầu bằng: [đặc biệt?] ⁵ M. S. Sukhotin (chồng của T. L. Sukhotina). ⁶ Gia đình Sukhotin từ nước ngoài trở về vào ngày 9 tháng 4.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:20:12.214Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "ca94ece1-b3ac-4c8e-bf6e-3951fc04ef4b",
+      "book": "TOM 78",
+      "text": "72. Gửi NN (K-v).\nNgày 11 tháng 3 năm 1908. Yasnaya Polyana.\n\nCuộc sống của chúng ta diễn ra ở hiện tại. Chỉ có hiện tại là quan trọng, và không có quá khứ nào có thể cản trở được hiện tại. Ngược lại, việc ý thức được những tội lỗi của chúng ta trong quá khứ sẽ khuyến khích chúng ta sống một cuộc đời tốt đẹp trong hiện tại.\n\nĐó là tất cả những gì tôi có thể nói với bạn để trả lời cho bức thư chân thành đã làm tôi xúc động của bạn. Tôi gửi cho bạn một vài cuốn sách, có lẽ chúng sẽ có ích cho bạn.\n\nĐể an ủi, tôi có thể nói với bạn rằng có rất ít người không phải chịu đựng nỗi khổ giống như điều mà bạn đã phải trải qua. Đừng nản lòng, mà ngược lại, hãy nỗ lực hướng tới sự khiết tịnh ngày càng lớn lao hơn, và tôi tin rằng bạn sẽ tìm thấy sức mạnh để đạt được điều đó.\n\nLev Tolstoy. Ngày 11 tháng 3 năm 1908.\n\nChú thích:\nIn theo sổ sao chép số 8, tờ 145. Bản gốc được viết và ghi ngày tháng bởi tay N. N. Gusev, chữ ký và ngày tháng phía dưới là do Tolstoy tự tay viết. Thư được đọc ghi âm qua máy quay đĩa (phonograph).\n\nTrong thư gửi ngày 23 tháng 2 năm 1908 (theo dấu bưu điện), K-v đã viết trong sự tuyệt vọng về những nỗi dằn vặt đạo đức gây ra bởi một thói hư thân xác trái tự nhiên mà anh ta đang sa đà vào. Anh ta hỏi: \"Làm thế nào để tôi thoát khỏi vũng bùn này? Làm sao để dập tắt tiếng nói của lương tâm? Tôi phải dùng việc thiện nào để bù đắp cho những năm tháng sa ngã đã qua?\"",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:22:17.235Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "d572b818-7a39-4a0c-a037-ffe4e4bf4f5b",
+      "book": "TOM 78",
+      "text": "74. Gửi Z. Y. Kurdyumova.\nNgày 11–12 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana, ngày 11 tháng 3 năm 1908.\n\nZinaida Yakovlevna, Chúc mừng bà vừa sinh con trai.¹ Tôi không thể cầu chúc điều gì đặc biệt cho cháu, bởi vì tôi không bao giờ muốn và không thể cầu chúc điều gì đặc biệt cho những con người riêng biệt. Tôi chỉ cầu chúc cho cháu, cũng như cho tất cả các con của bà và chính bà, có được niềm hạnh phúc lớn lao nhất, điều thiện đích thực — thứ hạnh phúc chỉ có thể đạt được bằng sự hoàn thiện về tâm linh, bằng việc gia tăng trong bản thân tình yêu đối với Chúa (tức là đối với cái thiện) và đối với tất cả mọi người.\n\nTạm biệt bà, thân ái siết chặt tay bà.\n\nLev Tolstoy. Ngày 12 tháng 3 năm 1908.\n\nChú thích:\nIn theo sổ sao chép số 8, tờ 146. Văn bản và ngày tháng do N. N. Gusev viết, chữ ký và ngày tháng phía dưới do Tolstoy tự tay viết. Ngày phía trên là ngày viết thư, ngày phía dưới là ngày ký.\n\nVề Zinaida Yakovlevna Kurdyumova (sinh năm 1868), xem tập 76, trang 38. Đây là thư trả lời thư của Z. Y. Kurdyumova (St. Petersburg) ngày 7 tháng 3 năm 1908. Kurdyumova viết thư vào ngày thứ ba sau khi sinh con trai. Bà xin phép đặt tên con là Lev để vinh danh Tolstoy và xin ông viết cho bà \"vài lời\" để bà lưu giữ cho con như một \"ánh sáng soi đường\".\n\n¹ Lev Dmitrievich Kurdyumov (sinh năm 1908), sau này là kỹ sư.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:23:48.630Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "d2764606-3b2c-4eac-8803-cc9c318ca3fa",
+      "book": "TOM 78",
+      "text": "75. Gửi I. F. Nazhivin.\nNgày 11–12 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana, ngày 11 tháng 3 năm 1908.\n\nIvan Fedorovich thân mến, Tôi vừa mới gửi thư cho anh thì lại nhận được bức thư dài và rất quan trọng này của anh. Hành động của anh đối với tôi không có ý nghĩa gì cả, dù là tiêu cực hay tích cực; ý nghĩa duy nhất đối với tôi là tôi hiểu việc đó đã nặng nề và đau đớn thế nào đối với anh và người vợ thân yêu của anh. Đối với chúng ta, không có câu hỏi nào về việc điều gì là quan trọng nhất trên đời: chúng ta biết rất rõ rằng quan trọng nhất là không được vi phạm tình yêu thương. Còn việc tình yêu thương bị vi phạm đến mức nào bởi hành động này hay hành động kia, liệu có khả năng thoát khỏi một tình huống nhất định mà không vi phạm tình yêu thương hay không, thì chỉ người trực tiếp đối mặt với thử thách đó mới biết được, và vì vậy tôi không dám phán xét, tôi chỉ mừng cho anh vì anh đã thoát khỏi tình cảnh đau khổ mà anh đã vướng phải. Hy vọng sớm được gặp anh và trò chuyện chi tiết, trực diện về mọi thứ.¹\n\nNhững gì anh viết cho tôi về lễ kỷ niệm kinh khủng của tôi, chắc chắn không nặng nề đối với anh bằng sự nặng nề mà tôi đang phải gánh chịu. Tôi đang làm tất cả những gì có thể để chấm dứt việc đó, nhưng tôi thấy mình thật bất lực.\n\nRất, rất vui vì nhận được thư của anh; nó làm tôi cảm thấy gần gũi với anh hơn, điều mà tôi luôn đặc biệt trân trọng.\n\nTôi xin bổ sung thêm vào bức thư đã viết cho anh rằng, bài viết của người Ấn Độ đã đặc biệt gây ấn tượng với tôi.² Nó hay một cách phi thường, và toàn bộ cuốn sách đều tuyệt vời, chỉ mong rằng có thêm nhiều tiếng nói của các dân tộc hơn nữa vào đó.\n\nTạm biệt anh, thân ái siết chặt tay anh. Sức khỏe của tôi tốt. Đang đợi anh.\n\nLev Tolstoy. Ngày 12 tháng 3 năm 1908.\n\nChú thích:\nThư được đọc ghi âm qua máy quay đĩa (phonograph), được chép lại và ghi ngày tháng (ngày phía trên) bởi tay N. N. Gusev, chữ ký và ngày tháng phía dưới do Tolstoy tự tay viết. Ngày đầu tiên là thời điểm ghi âm thư, ngày thứ hai là khi ký tên. Một đoạn trích (về lễ kỷ niệm) lần đầu được công bố trong hồi ký của I. F. Nazhivin \"Về Lev Nikolaevich\" — \"Niên giám Tolstoy quốc tế\", Moscow 1909, trang 170. Công bố đầy đủ trong cuốn sách của Nazhivin \"Từ cuộc đời của L. N. Tolstoy\", Moscow 1911, trang 152–153.\n\nTrong thư ngày 7 tháng 3 năm 1908 (theo dấu bưu điện), I. F. Nazhivin đã báo cáo chi tiết về sự thỏa hiệp mà anh và vợ buộc phải thực hiện để đăng ký kết hôn; vợ anh, vốn là người Do Thái, đã phải cải đạo sang Chính thống giáo.\n\n¹ I. F. Nazhivin đã đến Yasnaya Polyana vào ngày 19 tháng 3 và ngày 30 tháng 10 năm 1908. Xem thêm về việc này trong cuốn sách đã dẫn của Nazhivin \"Từ cuộc đời của L. N. Tolstoy\", chương VIII và IX. ² Xem thư số 66 và Nhật ký tập 2 (G, 2), trang 108.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:24:01.399Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "ffbe8fb6-4113-464a-8119-63ba720a64b0",
+      "book": "TOM 78",
+      "text": "76. Thư gửi Tatyana Pshenichnaya.\n11–12 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana, ngày 11 tháng 3 năm 1908.\n\nĐã lâu tôi không trả lời thư của cô vì tôi rất bận và không được khỏe. Những gì cô viết về sự hối hận của mình, theo tôi, là không đúng. Không thể hối hận về quá khứ; việc chỉ đơn thuần hối hận, tức là tiếc nuối vì đã không hành động như ý muốn, là vô nghĩa. Toàn bộ ý nghĩa của sự hối cải nằm ở việc cải thiện cuộc sống tương lai của mình. Và đó là điều duy nhất tôi khuyên cô. Tôi khuyên cô hãy sống, như người ta vẫn nói, vì linh hồn, vì Chúa,¹ tức là để gia tăng tình yêu thương trong chính mình. Chỉ bằng con đường này cô mới có thể trấn tĩnh được bản thân. Tạm biệt cô, chúc cô mọi điều tốt lành.\n\nLev Tolstoy. Ngày 12 tháng 3 năm 1908.\n\nChú thích:\nIn theo sổ sao chép số 8, tờ 149. Văn bản và ngày tháng do N. N. Gusev viết, chữ ký và ngày tháng phía dưới do Tolstoy tự tay viết. Ngày phía trên là ngày soạn thư, ngày phía dưới là ngày ký.\n\nTatyana Pshenichnaya — con gái một linh mục, học sinh lớp 7 trường giáo phận Ekaterinoslav, đã viết cho Tolstoy vào ngày 7 tháng 2 năm 1908 về tình trạng khủng hoảng tinh thần trầm trọng của mình. Em gái mười bốn tuổi của cô đã tự sát, và cô cảm thấy mình có lỗi vì chính cô là người đầu tiên gieo mầm mống bi quan vào tâm hồn đứa trẻ. N. N. Gusev đã trả lời thư này vào ngày 10 tháng 2 và gửi cuốn \"Tóm tắt Phúc âm\". Ngày 20 tháng 2, T. Pshenichnaya lại viết về nỗi đau của mình và kể chi tiết sự việc: \"Tôi coi mình là kẻ giết người. Tôi có quyền sống không? Nhưng liệu tôi có nên chết nếu cái chết của tôi sẽ giết chết hoàn toàn những người thân?\" Tolstoy đã trả lời bức thư này.\n\n¹ Phần tiếp theo cho đến hết câu được chính tay Tolstoy viết thêm vào.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:26:05.581Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "24214489-470c-461d-8c11-2aa41e91a4eb",
+      "book": "TOM 78",
+      "text": "77. Gửi M. V. Teplov.\n11–12 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana, ngày 11 tháng 3 năm 1908.\n\nTeplov thân mến, Tôi đã nhận được thư của anh và nhớ lại rất sống động về anh cũng như người bạn quý giá chung của chúng ta, Nikolai Nikolaevich.¹ Bức tranh của anh thấm đượm chính thứ cảm xúc mà người bạn chung đó của chúng ta hằng ấp ủ. Nó rất ấm áp và chân thành. Tuy nhiên, tôi phải nói với anh rằng, theo ý kiến của tôi, mọi sự miêu tả mang tính kỳ ảo đều không phù hợp với hội họa. Dù vậy, tôi không phải là một quan tòa trong lĩnh vực này. Dẫu sao, tôi rất cảm ơn anh vì đã nhớ đến tôi; việc giao thiệp với anh thực sự là một niềm vui đối với tôi.\n\nLev Tolstoy. Ngày 12 tháng 3 năm 1908.\n\nChú thích:\nBản gốc được viết và ghi ngày tháng bởi tay N. N. Gusev, chữ ký và ngày tháng phía dưới do Tolstoy tự tay viết. Ngày phía trên là ngày soạn thư, ngày phía dưới là ngày ký. Được đọc ghi âm qua máy quay đĩa (phonograph).\n\nMikhail Vasilyevich Teplov — họa sĩ, học trò của N. N. Ge, người chia sẻ các quan điểm của ông. Trong những năm 1885–1886, ông thường ghé thăm Tolstoy ở Moscow và Yasnaya Polyana. Ông thường được nhắc đến trong các bức thư của Tolstoy gửi N. N. Ge những năm 1880. Năm 1908, ông là thành viên thường trực của ủy ban quản lý đất đai tại thành phố Orgeyev, tỉnh Bessarabia. Ngày 9 tháng 2 năm 1908, Teplov gửi một bức ảnh chụp bức tranh sơn dầu của mình minh họa cho truyện ngắn của Tolstoy \"Ở đâu có tình yêu, ở đó có Chúa\". Bức tranh từng được trưng bày tại triển lãm ở Vilna. Trên bức ảnh có dòng chữ: \"Gửi người truyền cảm hứng cho những suy nghĩ của tôi, Lev Nikolaevich kính yêu, như một dấu hiệu của tình yêu và sự kính trọng sâu sắc từ tác giả khiêm nhường. Ngày 9 tháng 2 năm 1908. M. Teplov\" (hiện lưu giữ tại Bảo tàng Quốc gia Tolstoy - GMT).\n\n¹ Về Nikolai Nikolaevich Ge (1831–1894), xem tập 63, trang 208.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:26:30.818Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "45fcf4d6-3641-413b-9598-464573bb0af8",
+      "book": "TOM 78",
+      "text": "78. Gửi I. P. Sharapov.\n11–12 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana, ngày 11 tháng 3 năm 1908.\n\nTôi đã nhận được thư của anh và rất vui khi biết về ấn tượng mà những bài viết của tôi đã để lại trong anh. Tôi không thay đổi quan điểm rằng cuộc sống tốt đẹp nhất, tự nhiên nhất chính là cuộc sống trên mặt đất bằng lao động của chính đôi tay mình. Tuy nhiên, bất chấp mọi tầm quan trọng của kiểu sống đó, đối với một người mong muốn đi theo quy luật thực sự của cái thiện, tức là quy luật Kitô giáo, còn có một yêu cầu khác đứng cao hơn yêu cầu về cuộc sống trên mặt đất. Yêu cầu đó là không được vi phạm tình yêu thương với bất kỳ ai, và phải gia tăng ý thức về tình yêu thương đó trong mình. Tôi không biết anh đã thực hiện điều đó đến đâu, nhưng tôi nghĩ rằng không một ai thực hiện được trọn vẹn, và chúng ta cần dồn hết sức lực cho việc này. Khi anh dồn sức cho điều đó, thì chính câu hỏi về việc thay đổi cuộc sống sẽ không còn là vấn đề hàng đầu nữa. Nếu có khả năng thay đổi cuộc sống mà không vi phạm tình yêu thương, anh hãy thay đổi nó; nếu không có khả năng đó, anh thà ở lại vị trí cũ còn hơn là vi phạm quy luật chính và cái thiện chính của con người — đó là tình yêu thương.\n\nTạm biệt anh, thân ái siết chặt tay anh.\n\nLev Tolstoy. Ngày 12 tháng 3 năm 1908.\n\nChú thích:\nIn theo sổ sao chép số 8, tờ 147. Văn bản và ngày tháng do N. N. Gusev viết, chữ ký và ngày tháng phía dưới do Tolstoy tự tay viết. Ngày phía trên là ngày soạn, ngày phía dưới là ngày ký. Được đọc ghi âm qua máy quay đĩa. Công bố lần đầu gần như trọn vẹn, không ghi tên người nhận, trong bài báo của V. Chertkov \"Thái độ của L. N. Tolstoy đối với các thuộc địa nông nghiệp\" — tờ \"Tiếng vọng quá khứ\" (Golos minuvshego) 1913, số 10, trang 58–59.\n\nIvan Pavlovich Sharapov (sinh năm 1885) — nông dân huyện Serpukhov, tỉnh Moscow, công nhân nhà máy dệt ở Ivanovo-Voznesensk.\n\nĐây là thư trả lời cho thư của I. P. Sharapov ngày 10 tháng 1 năm 1908 (gửi đi ngày 3 tháng 3). Dưới ảnh hưởng từ các tác phẩm của Tolstoy và T. M. Bondarev, Sharapov dự định rời bỏ thành phố để \"làm nông dân\", nhưng gặp phải sự phản đối từ cha mẹ. Anh đã hỏi Tolstoy xem mình nên làm thế nào.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:26:40.462Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "9ebafe3f-a599-4f4e-b420-43474a964702",
+      "book": "TOM 78",
+      "text": "79. Gửi A. M. Bodyansky.\nNgày 12–13 tháng 3 năm 1908. Yasnaya Polyana.\n\nAlexander Mikhailovich thân mến,\n\nTôi đã đọc lá thư ngắn của anh gửi cho Gusev,¹ trong đó anh đã diễn đạt một cách tuyệt vời về phương cách duy nhất và tốt nhất để kỷ niệm ngày lễ của tôi, tức là làm một điều thực sự khiến tôi hài lòng và hoàn toàn thỏa mãn: đó chính là tống giam tôi vào tù vì đã viết ra những tác phẩm mà vì việc truyền bá chúng, anh sẽ phải ngồi tù sáu tháng,² cũng như biết bao nhiêu người khác đang phải ngồi tù. Với nhiều người, ý nghĩ này có vẻ như một trò đùa, một sự nghịch lý, nhưng thực ra đó là chân lý đơn giản và chắc chắn nhất. Quả thực, không gì có thể làm tôi thỏa mãn hoàn toàn và mang lại cho tôi niềm vui lớn lao hơn việc bị tống vào tù — một nhà tù thực thụ, hôi hám, lạnh lẽo và đói khát. Anh đã nói rõ được điều mà tôi vốn chỉ mong ước một cách mơ hồ và không xác định. Thời gian gần đây, tôi cảm thấy mình hạnh phúc đến mức thường tự hỏi liệu có điều gì mình còn mong muốn nữa không? — và tôi đã không thể tìm ra điều gì như thế. Nhưng giờ đây, tôi không thể kìm lòng mà mong mỏi từ tận đáy lòng rằng những gì anh đề xuất sẽ được đón nhận không phải như một trò đùa, mà như một hành động thực tế có thể trấn an tất cả những ai cảm thấy khó chịu vì các bài viết của tôi cũng như việc truyền bá chúng; mặt khác, hành động đó sẽ mang lại cho tôi niềm vui thực sự trong những năm tháng tuổi già trước khi lìa đời, đồng thời giải thoát tôi khỏi mọi gánh nặng tiên liệu được từ lễ kỷ niệm đang chuẩn bị diễn ra.³\n\nThân ái siết chặt tay anh.\n\nLev Tolstoy. Ngày 13 tháng 3 năm 1908.\n\nChú thích:\nIn theo sổ sao chép số 8, tờ 149–150. Văn bản được viết bởi tay N. N. Gusev, chữ ký và ngày tháng do Tolstoy tự tay viết (Tolstoy cũng đã thực hiện một số chỉnh sửa nhỏ trong văn bản). Thư được đọc ghi âm qua máy quay đĩa (phonograph) vào ngày 12 tháng 3 (xem Nhật ký tập 2, trang 110). Công bố lần đầu trên tờ \"Tin tức Nga\" (Russkie vedomosti) 1908, số 65 ngày 18 tháng 3.\n\n¹ A. M. Bodyansky đã thông báo cho N. N. Gusev rằng ông đã gửi một bức thư ngỏ tới các mặt báo, trong đó viết về cách thức mà theo ông nên dùng để kỷ niệm 80 năm ngày sinh của Tolstoy: \"Tôi đã viết rằng, theo luật pháp và theo lẽ phải thông thường, lẽ ra nên tống giam Lev Nikolaevich vào tù nhân dịp lễ kỷ niệm, điều này sẽ mang lại cho ông một sự thỏa mãn sâu sắc về mặt đạo đức.\" Các báo đã không đăng bức thư này. Về bức thư của Bodyansky, trong Nhật ký tập 2 ngày 12 tháng 3 có ghi lại lời của Tolstoy: \"Bodyansky làm tôi phấn khích quá! Quả thực, điều đó sẽ mang lại sự thỏa mãn. Mấy hôm trước tôi có nghĩ: mình mong muốn điều gì? Và câu trả lời là: chẳng mong gì ngoài việc bị tống giam\" (trang 110). Trong tài liệu \"Yasnaya Polyana\" cùng ngày cũng ghi lại lời của ông: \"Đó sẽ là sự giải thoát thực sự khỏi ngày lễ hội. Ở đó, một nơi nào đó tại Krapivna, người ta sẽ không mang vòng hoa đến.\"\n\n² Xem chú thích 2 của thư số 51. ³ Phần tiếp theo được Tolstoy tự tay viết.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:27:51.033Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "42403561-ae51-4eef-8982-2eec051ffd43",
+      "book": "TOM 78",
+      "text": "84. Gửi R. G. Gadon.\nNgày 17 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana.\n\nNgười Nga không nên chỉ yêu người Nga, người Do Thái không nên chỉ yêu người Do Thái, và cháu cũng không nên chỉ yêu một người cô giáo mà cháu quý mến, mà chúng ta cần phải yêu thương tất cả mọi người như nhau. Tại sao phải yêu thương như vậy? Bởi vì ở tất cả mọi người, bất kể họ là ai và họ như thế nào, đều cùng chung một tinh thần của Chúa, cái tinh thần đang sống trong cháu và trong ta.\n\nHơn tất cả, cần phải yêu thương những người làm ta khó chịu, những người căm ghét ta, những kẻ thù của ta. Và điều này cần được thực hiện không phải vì sẽ có một phần thưởng nào đó ở thế giới bên kia, mà bởi vì đó chính là điều thiện và hạnh phúc lớn lao nhất của con người. Ai đã từng trải nghiệm điều đó — tức là yêu thương cả những kẻ không yêu mình — người đó sẽ hiểu được hạnh phúc này. Ta khuyên cháu hãy thử trải nghiệm nó. Tạm biệt cháu, chúc cháu mọi điều tốt lành.\n\nLev Tolstoy. Ngày 17 tháng 3 năm 1908.\n\nChú thích:\nIn theo sổ sao chép số 8, tờ 156–157. Văn bản do N. N. Gusev viết, chữ ký và ngày tháng do Tolstoy tự tay viết. Thư được đọc ghi âm qua máy quay đĩa.\n\nRakhil Grigoryevna Gadon (sinh năm 1894) — khi đó là nữ sinh trung học tại Elisavetgrad. Sau này bà trở thành giáo viên hội họa tại đó.\n\nTrong thư ngày 13 tháng 3 năm 1908, R. Gadon viết về tình yêu dành cho cô giáo dạy văn Elena Nikitichna Kovaldina. Nhưng cô giáo này là người Nga, mà sau vụ thảm sát người Do Thái (pogrom) — nơi người bạn thân nhất của cô là nạn nhân — cô đã thề sẽ mãi mãi căm thù người Nga. Tuy nhiên, khi nỗi đau dịu đi, cô hiểu rằng không nên căm thù, nhưng không ai trả lời được câu hỏi của cô: vậy phải đối xử với người Nga như thế nào. Cô không thể vừa căm thù lại vừa yêu thương cô giáo của mình cùng một lúc. Cô đã xin Tolstoy giúp cô giải quyết vấn đề này.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:29:54.142Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "7239d9d5-5e35-40cf-9d53-0b42eebb4390",
+      "book": "TOM 78",
+      "text": "85. Gửi N. A. Glebova.\nNgày 17 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana, tỉnh Tula, ga Zaseka.\n\nTrả lời câu hỏi của cô đối với tôi là điều rất dễ dàng. Sự khiết tịnh là một lý tưởng mà con người luôn luôn, trong mọi hoàn cảnh, cần phải nỗ lực hướng tới. Càng đạt gần đến việc thực hiện lý tưởng đó, không phải là bạn đạt được một công trạng nào đó trước mặt Chúa, mà là bạn đạt được lợi ích (cái thiện) lớn hơn cho chính mình. Con người có thể phụng sự Chúa tốt hơn khi giữ được sự khiết tịnh so với khi sa đà vào cuộc sống xác thịt.\n\nĐó là tất cả những gì tôi muốn nói với cô.\n\nLev Tolstoy. Ngày 17 tháng 3 năm 1908.\n\nChú thích:\nIn theo sổ sao chép số 8, tờ 154. Văn bản do N. N. Gusev viết, chữ ký và ngày tháng do Tolstoy tự tay viết. Thư được đọc ghi âm qua máy quay đĩa (phonograph). Công bố lần đầu trong cuốn TT, 1, trang 18.\n\nĐây là thư trả lời thư của N. A. Glebova (Krasnoslobodsk) ngày 24 tháng 2 năm 1908. Glebova viết về tình yêu của cô dành cho một sinh viên y khoa, người mà cô không thể kết hôn vì một hoàn cảnh đặc biệt: anh ta có nguy cơ bị di truyền bệnh tâm thần. \"Phải làm sao đây,\" — Glebova hỏi — \"phải thế nào đây? Làm sao có thể chia tay khi còn yêu sâu đậm? Ý chí thì yếu mềm mà đam mê lại mạnh mẽ. Điều gì là đạo đức hơn — kết hôn hay từ bỏ nó? Nhưng, dù sớm hay muộn, cũng khó lòng cưỡng lại một mối quan hệ ngoài hôn nhân.\"",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:30:18.908Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "cb8b25a3-c818-49fe-88a3-f58998e0346c",
+      "book": "TOM 78",
+      "text": "86. Gửi Khristo Dosev.\nNgày 17 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana.\n\nDosev thân mến,\n\nTôi đã nhận được thư của anh và rất vui vì những gì anh viết về bản thân mình cũng như về những người bạn chung của chúng ta. Tuy nhiên, tôi phải nói rằng tôi luôn e ngại việc gán cho những hiện tượng bên ngoài một ý nghĩa quá lớn lao. Điều đó làm chúng ta xao nhãng việc chăm lo cho đời sống nội tâm; mà chỉ có ở trong đó, trong sự chuyển động nội tại, trong sự hợp nhất với Chúa — mới có được hạnh phúc cá nhân (trong chừng mực mà chúng ta có thể trải nghiệm), đồng thời tạo ra tác động tốt đẹp nhất đến những người khác.\n\nAnh có hỏi tôi về Thông linh học (Theosophy). Bản thân tôi cũng từng quan tâm đến học thuyết này, nhưng đáng tiếc là họ lại chấp nhận những yếu tố thần bí (phép màu), mà chỉ cần một sự chấp nhận nhỏ nhất đối với cái thần bí thôi cũng đã tước đi của tôn giáo sự giản đơn và sáng sủa vốn có của một thái độ đúng đắn đối với Chúa và người lân cận. Chính vì vậy, trong học thuyết này có thể có nhiều điều rất tốt, giống như trong các giáo lý của những nhà thần bí, thậm chí cả trong thuyết chiêu hồn (spiritism), nhưng cần phải cảnh giác với nó. Quan trọng nhất, tôi nghĩ rằng những người cần đến phép màu là những người chưa hiểu hết học thuyết Kitô giáo thực sự — vốn rất giản đơn.\n\nTạm biệt Dosev thân mến, thỉnh thoảng hãy viết thư cho tôi; tôi luôn rất vui khi được giao tiếp với anh.\n\nLev Tolstoy. Ngày 17 tháng 3 năm 1908.\n\nChú thích:\nIn theo sổ sao chép số 8, tờ 154–155. Văn bản do N. N. Gusev viết, chữ ký và ngày tháng do Tolstoy tự tay viết. Thư được đọc ghi âm qua máy quay đĩa. Công bố lần đầu trong PTS, I, số 259.\n\nVề Khristo Dosev (1887–1919), xem tập 56, trang 582. Đây là thư trả lời thư của Kh. Dosev ngày 2 tháng 3 năm 1908 (lịch mới). Sau khi từ Nga trở về Bulgaria vào cuối năm 1907, Dosev đã đi khắp Bulgaria để lo việc cho nhà xuất bản \"Vyzrazhdane\" (Phục hưng). Anh đã viết cho Tolstoy về những ấn tượng của mình. Trong cùng bức thư đó, Dosev cũng kể về một thành viên trong cộng đồng của họ, người đồng thời say mê cả thế giới quan của Tolstoy và Thông linh học. Anh nhờ Tolstoy bày tỏ thái độ đối với Thông linh học.\n\nVề bức thư này của Dosev, có một ghi chép trong tài liệu Yasnaya Polyana ngày 12 tháng 3.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:36:17.015Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "af62c509-8cac-485c-82bd-0e03a6519259",
+      "book": "TOM 78",
+      "text": "88. Gửi S. F. Paramonov.\nNgày 17 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana.\n\nTôi đã nhận được thư của anh và gửi cho anh một vài cuốn sách, trong đó có cuốn sách về những người theo phái Duy linh (Dukhobor). Tôi đề nghị và khuyên anh hãy đọc nó để hiểu sâu sắc cách những người này sống, cũng như cách mà con người cần và có thể sống: bình thản, tự do và vui vẻ. Trong bức thư của anh, có một điều tôi không hài lòng là anh quá nặng lời chỉ trích người khác. Đừng chỉ trích người khác, mà hãy nhìn lại chính mình, phán xét chính mình và sửa chữa những khuyết điểm của bản thân. Đó là điều mà Chúa Kitô đã dạy chúng ta. Tạm biệt anh, chúc anh mọi điều tốt lành nhất.\n\nLev Tolstoy. Ngày 17 tháng 3 năm 1908.\n\nChú thích:\nIn theo sổ sao chép số 8, tờ 155. Văn bản do N. N. Gusev viết, chữ ký và ngày tháng do Tolstoy tự tay viết. Thư được đọc ghi âm qua máy quay đĩa (phonograph).\n\nTrong thư ngày 14 tháng 3 năm 1908, S. F. Paramonov, một nhân viên xe điện thành phố Moscow, đã xin Tolstoy gửi cho \"dù chỉ một\" cuốn sách vì anh không có tiền mua. \"Chúng tôi là tầng lớp bị vùi dập, bị bóp nghẹt,\" — anh viết và đưa ra những ví dụ về sự áp bức và bất công mà công nhân phải chịu đựng. Bức thư được viết với nhiều lỗi chính tả.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:37:02.501Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "f6d80458-85d4-4a13-9519-5ebbe343fa72",
+      "book": "TOM 78",
+      "text": "90. Gửi A. I. Shashkin.\nNgày 17 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana, tỉnh Tula, ga Zaseka.\n\nTôi đang dùng tất cả sức lực của mình để đấu tranh chống lại những lời tán dương đang được chuẩn bị. Cảm ơn anh vì sự đồng cảm.\n\nLev Tolstoy. Ngày 17 tháng 3 năm 1908.\n\nChú thích:\nIn theo sổ sao chép số 8, tờ 152. Văn bản do N. N. Gusev viết, chữ ký và ngày tháng do Tolstoy tự tay viết.\n\nTrong thư ngày 13 tháng 3 năm 1908, Alexander Ivanovich Shashkin, một nông dân sống tại Moscow, đã viết: \"Theo bản năng, tôi tiên đoán rằng Ngài phản đối lễ kỷ niệm cũng như những danh dự và vinh quang mà người ta đang chuẩn bị cho Ngài. Vì vậy, vì Chúa, xin Ngài đừng tổ chức lễ kỷ niệm đó.\"",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:38:14.168Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "ad4c930d-1908-48c0-8c8c-b86bb1db2584",
+      "book": "TOM 78",
+      "text": "91. Gửi P. A. Boulanger.\nNgày 17–18? tháng 3 năm 1908. Yasnaya Polyana.\n\nPavel Alexandrovich thân mến,\n\nTôi đã nhận được thư của anh và đã lâu không trả lời, bởi vì nó để lại trong tôi một ấn tượng nặng nề. Suốt mấy ngày qua, tôi đã cố gắng chuẩn bị để viết cho anh nhưng vì lý do nào đó mà không thể. Hôm nay tôi đã hiểu tại sao. Điều đó xảy ra là vì — dù tôi có sai hay không — bức thư của anh đã làm nảy sinh trong tôi sự phê phán đối với anh.\n\nVà, nhớ lại điều đã được nói rất đúng trong Phúc âm: rằng nếu có điều gì chống lại người anh em mình, hãy nói với anh ta một cách dịu dàng và riêng tư thì anh sẽ có lại được người anh em đó. Và vì thế, tôi muốn có lại được người anh em trong anh, và vì mục đích đó, tôi muốn viết ra những gì tôi đang bất bình về anh. Cụ thể là qua thư, tôi thấy anh nhìn nhận hành động của mình, hay đúng hơn là một chuỗi hành động anh đã thực hiện, như một điều gì đó rất tự nhiên; trong khi tôi cho rằng nếu anh đã từng chân thành lấy giáo huấn về cái thiện và chân lý của Chúa Kitô cũng như của tất cả những vĩ nhân trên thế giới làm kim chỉ nam cho cuộc sống, thì anh không thể nào bình thản và hài lòng được. Anh không thể nào, khi quay trở lại giao thiệp với một người gần gũi như tôi, lại chỉ nói về những chuyện bên ngoài mà không nói về đời sống tâm linh của mình. Điều đó đã và đang khiến tôi đau lòng thay cho anh.\n\nĐừng bào chữa cho mình, người anh em thân mến, mà hãy đối xử với bản thân thật nghiêm khắc nhất có thể; để việc ý thức được tất cả những điều tồi tệ anh đã làm sẽ trở thành phương tiện giúp anh tiến về phía trước tới sự hoàn thiện và cái thiện, chứ không phải là phương tiện để ngày càng sa ngã hơn. Tôi nói tất cả những điều này, như anh chắc chắn sẽ hiểu, chỉ vì tình yêu dành cho anh, và vì vậy tôi tin rằng anh sẽ không giận tôi vì điều đó. Nguyện xin Chúa trong tâm hồn anh giúp anh tẩy sạch khỏi linh hồn mình tất cả những gì đang che lấp Người.\n\nNgười yêu mến anh, L. Tolstoy.\n\nChú thích:\nTrên phong bì ghi: Genève, Suisse, Grand Lancy, M-me Woulff. Gửi Pavel Alexandrovich Boulanger.¹ Căn cứ xác định ngày tháng: dấu bưu điện \"Kharkov — Moscow ngày 18 tháng 3 năm 1908\".\n\nVề Pavel Alexandrovich Boulanger (1865–1925), xem tập 63, trang 350. Đây là thư trả lời thư của P. A. Boulanger (không tìm thấy trong kho lưu trữ). Rõ ràng, Boulanger đã viết về những sự kiện gần đây trong cuộc đời mình (về việc này xem tập 77, thư số 279).\n\n¹ Dòng chữ \"Thụy Sĩ\" được Yu. I. Igumnova viết thêm. Theo ý nguyện của Tolstoy, bức thư này không được lưu lại trong sổ sao chép. P. A. Boulanger chỉ cung cấp bản sao cho kho lưu trữ của Chertkov sau khi Tolstoy qua đời.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:38:21.757Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "d1f1339a-4112-45e7-acd0-ef7ddedbe43d",
+      "book": "TOM 78",
+      "text": "92. Gửi L. L. Tolstoy.\nNgày 21 tháng 3 năm 1908. Yasnaya Polyana.\n\nCha rất vui khi nhận được thư của con, Lyova thân mến. Việc con không hài lòng với chính mình vừa là điều tốt lại vừa không tốt, nhưng phần nhiều là tốt, bởi vì đó là dấu hiệu của điều quan trọng và quý giá nhất trên đời: sự vận động tâm linh nội tại. Cha tin rằng điều đó đang diễn ra trong con, và cha vui vì điều đó; vui vì cha biết rằng mọi nỗ lực tâm linh chân thành đều dẫn tới một kết quả duy nhất: một cái nhìn về cuộc sống rộng mở, vượt ra ngoài phạm vi gia đình (mong Dora¹ đừng giận cha), ngoài giai cấp, ngoài đảng phái, ngoài lòng yêu nước dân tộc hẹp hòi, để hướng tới thái độ yêu thương với tất cả mọi người; và trong điều đó chứa đựng cái thiện đích thực và lớn lao duy nhất có thể có trong đời.\n\nHôn Dora và các cháu giúp cha.² Liệu cha có bao giờ còn cơ hội gặp lại họ không? Điều đó không ngăn cản cha nhớ và yêu thương họ, đặc biệt là Dora. Cha rất vui với ý nghĩ sẽ được gặp con. Lễ kỷ niệm của cha là một bài toán rất khó đối với cha: làm sao để không làm phiền lòng bạn bè và không gây thù chuốc oán với kẻ thù. Cha đang tìm cách hành xử sao cho ít làm tổn hại nhất đến thái độ yêu thương tự nhiên vốn có giữa người với người.³\n\nTạm biệt con, hôn con. Bạn của con, L. T. Ngày 21 tháng 3 năm 1908.\n\nBức thư gửi Koni cha đã gửi cho Sasha ở Moscow để nó tự tay trao cho ông ấy; nhưng vì nó không đi từ Moscow đến Petersburg nên bức thư vẫn đang ở chỗ nó.\n\nÝ tưởng của con về việc tìm một chỗ làm cho Andryusha trong bộ máy cung đình là rất tốt. Sẽ thật tuyệt nếu điều đó thành công.⁴\n\nL. T.\n\nChú thích:\nTrên phong bì ghi: Gửi Lev Lvovich Tolstoy. Petersburg, nhà riêng đối diện vườn Tavrichesky. Một đoạn trích (về lễ kỷ niệm) đã được đăng không chính xác trên tờ báo \"Rus\" (Nga) 1908, số 89, ngày 30 tháng 3.\n\nĐây là thư trả lời cho thư của L. L. Tolstoy (con trai Tolstoy) ngày 19 tháng 3 năm 1908, trong đó anh viết: \"Con sống không tốt, làm được rất ít việc và rất không hài lòng với bản thân\".\n\n¹ Dora Fedorovna Tolstaya, vợ của L. L. Tolstoy. ² Các con của L. L. Tolstoy: Pavel (sinh 1900), Nikita (sinh 1904) và Petr (sinh 1905). ³ Trong thư ngày 19 tháng 3, L. L. Tolstoy viết cho cha: \"Con hình dung được cha khó chịu thế nào khi hàng ngày phải đọc tin về mình trên báo. Nhưng nếu điều này giúp ích cho sự tiến bộ hòa bình của nhân loại (nói một cách hoa mỹ), thì cứ để họ kỷ niệm như họ muốn. Cha nên hoàn toàn im lặng và tiếp nhận nó một cách thụ động. Vì thế thật đáng tiếc khi bức thư gửi Bodyansky lại lọt lên báo\" (xem thư số 79). Trên tờ \"Rus\" ngày 30 tháng 3 có đăng bài phỏng vấn L. L. Tolstoy. Anh bày tỏ sự hối tiếc vì Ủy ban Sáng kiến đã vội vàng chấm dứt hoạt động. Anh bị gán cho lời khẳng định: \"Tôi biết chắc chắn rằng cả gia đình lẫn bản thân Lev Nikolaevich đều không mong đợi điều này\". Bài phỏng vấn có trích dẫn từ bức thư này. Sau đó, trên tờ \"Thời đại mới\" (Novoe Vremya) số 11514 ngày 1 tháng 4, L. L. Tolstoy đã đăng thư phản đối những điểm không chính xác trong bài báo trên tờ \"Rus\". ⁴ Xem các thư số 70 và 71.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:38:42.284Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "b2fae2d2-2160-4147-a59e-f636ee2cc650",
+      "book": "TOM 78",
+      "text": "93. Gửi I. M. Kurtysh.\nNgày 23 tháng 3 năm 1908. Yasnaya Polyana.\n\nNgười anh em Ivan Markovich thân mến,\n\nTôi muốn viết thêm cho anh vài lời, chỉ để nói rằng tôi thường nhớ về anh với tình yêu thương và lòng biết ơn. Tôi cầu chúc cho anh có được sức mạnh tinh thần, hơn hết là sự phục tùng ý chí của Chúa và lòng yêu thương đối với chính những người đang làm anh đau khổ, để vượt qua cảnh tù đày của mình. Trong điều này — trong tình yêu đối với kẻ thù, đối với những kẻ hành hạ và căm ghét chúng ta — ẩn chứa một sức mạnh và niềm vui to lớn, cho cả người đang chịu đựng sự hành hạ lẫn tất cả những ai biết về điều đó.\n\nNguyện xin Chúa giúp anh vượt qua hoàn cảnh của mình bằng sự khiêm nhường, dịu dàng và tình yêu đối với những kẻ bách hại. Tôi tin rằng ngay cả trong hoàn cảnh hiện tại, anh sẽ tìm thấy cái thiện đích thực mà không ai có thể tước đoạt khỏi anh. Hãy viết thư cho chúng tôi. Tôi luôn vui mừng khi nhận được tin tức về anh và sẽ rất hạnh phúc nếu có thể giúp ích được gì cho anh.\n\nThân ái hôn anh. Lev Tolstoy.\n\nChú thích:\nĐây là phần viết thêm vào thư của N. N. Gusev. In theo sổ sao chép số 8, tờ 160–161. Công bố lần đầu trong \"Niên giám Tolstoy năm 1913\", trang 144. Ngày tháng được xác định theo ghi chú của Gusev trong sổ sao chép.\n\nĐây là thư trả lời thư của I. M. Kurtysh ngày 16 tháng 3 năm 1908. Kurtysh thông báo đã nhận được tiền và thư của Tolstoy gửi ngày 22 tháng 1 (xem thư số 24).",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:39:32.048Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "fd5880a4-3134-44b1-8a2d-a5630ca1328e",
+      "book": "TOM 78",
+      "text": "96. Gửi M. S. Dudchenko.\nNgày 25 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana.\n\nTôi đã nhận được thư của anh, Mitrofan Semenovich thân mến, và rất vui mừng trước những biểu cảm về cảm xúc và suy nghĩ mà tôi tìm thấy trong bản tuyên bố gửi kèm theo đó. Tuy nhiên, một vài lời lẽ gửi tới những người tổ chức có vẻ hơi gay gắt đối với tôi, và vì lý do đó — cũng như không chỉ vì lý do đó mà nhìn chung hiện nay — bản tuyên bố này hóa ra lại trở nên thừa thãi. Càng ít gây sự chú ý vào bản thân thì đương nhiên càng tốt. Tôi đã viết cho Ủy ban ở Petersburg về việc tôi cảm thấy đau lòng thế nào trước sự ồn ào đang náo động xung quanh mình;¹ vài ngày tới tôi cũng sẽ làm điều tương tự với phía Moscow.² Tôi đang đợi thư ký hoặc chủ tịch của Ủy ban này đến thăm.³ Dù sao đi nữa, tất cả chuyện này đối với tôi đều rất nặng nề, và thật khó để ứng xử sao cho không mắc sai lầm. Có lẽ tôi cũng đã sai lầm rồi, nhưng biết làm sao được.\n\nRất vui khi biết tin về anh và về gia đình Scheerman,⁴ những người tôi chưa từng gặp nhưng hết lòng yêu mến và kính trọng. Thân ái siết chặt tay anh.\n\nLev Tolstoy. Ngày 25 tháng 3 năm 1908.\n\nChú thích:\nBản gốc được đánh máy, chữ ký và ngày tháng do Tolstoy tự tay viết. Thư được đọc ghi âm qua máy quay đĩa. Công bố lần đầu trong PTS, I, số 263.\n\nVề Mitrofan Semenovich Dudchenko (1867–1946), xem tập 65, trang 311.\n\nKèm theo thư ngày 17 tháng 3 năm 1908, M. S. Dudchenko đã gửi một bản \"tuyên bố\" do mười hai người cùng chí hướng với Tolstoy soạn thảo liên quan đến việc chuẩn bị cho lễ kỷ niệm của ông. Những người soạn thảo phản đối rằng lễ kỷ niệm lại được tổ chức bởi \"những người thuộc cái thế giới mà những lời răn của Lev Tolstoy đang trực tiếp chống lại\". Bản \"tuyên bố\" được gửi cho Tolstoy để xin ý kiến phê duyệt; tuy nhiên rõ ràng nó đã không được phổ biến rộng rãi.\n\n¹ Xem thư số 60. ² Xem thư số 99. ³ Chủ tịch Ủy ban Moscow, N. V. Davydov, đã đến Yasnaya Polyana vào ngày 25 tháng 3. ⁴ Xem các thư số 101 và 170.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:45:30.348Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "f5eaca6f-a194-4af4-a2a1-c535e8c1e3f9",
+      "book": "TOM 78",
+      "text": "98. Gửi NN (P-n).\nNgày 25 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana.\n\nĐể trả lời thư của cô, tôi khuyên cô nên đọc Phúc âm Matthew chương 5, câu 31 và 32. Tôi khuyên điều này không phải vì đó là Phúc âm — cuốn sách được coi là linh thiêng, mà bởi vì ở đó diễn đạt một quy tắc khôn ngoan và thực tế nhất liên quan đến hoàn cảnh của cô.\n\nTrong vấn đề giới tính, sự khiết tịnh hoàn toàn đã, đang và sẽ luôn là lý tưởng: con người theo tự nhiên luôn hướng tới nó, vì trạng thái đối nghịch với sự khiết tịnh là trạng thái của loài vật. Nhưng vì việc đạt được sự khiết tịnh hoàn toàn là điều khó khăn với những người trẻ tuổi, nên sự tiếp cận gần nhất với nó chính là hôn nhân, nơi người chồng không bỏ vợ và người vợ không bỏ chồng để cả hai có khả năng thực hiện điều duy nhất biện minh cho hôn nhân: sinh con và nuôi dạy con cái. Khi một người đàn ông bỏ vợ để lấy người khác, thì rõ ràng lý tưởng của anh ta không phải là sự khiết tịnh mà là hạnh phúc cá nhân.\n\nVì vậy, trong vấn đề của cô, tôi khuyên cô hãy dùng tất cả nghị lực của mình để chia tay với người đang lôi kéo cô vào tội lỗi và vào một tình cảnh nặng nề về mọi mặt. Làm thế nào để thực hiện điều đó một cách tốt nhất mà không làm tổn thương hay xúc phạm người đó, cô là người rõ nhất. Lời khuyên của tôi rất dứt khoát và tôi không thể nói gì khác hơn.\n\nChân thành cầu chúc cô có được cái thiện đích thực. Tạm biệt cô, chúc cô mọi điều tốt lành, và điều tốt lành nhất cho cô lúc này là sự giải thoát khỏi cám dỗ mà cô đang vướng phải.\n\nLev Tolstoy. Ngày 25 tháng 3 năm 1908.\n\nChú thích:\nIn theo sổ sao chép số 8, tờ 164. Thư được đọc ghi âm qua máy quay đĩa. Công bố lần đầu trong TT, 1, trang 18–19.\n\nTrong thư ngày 8 tháng 3 năm 1908, P-n, một giáo viên trường tiểu học hai lớp, đã xin lời khuyên về đời sống cá nhân. Cô yêu một người đàn ông đã có vợ, điều này gây ra sự phản đối gay gắt từ mẹ cô. Vợ của người đó không đồng ý ly hôn, và thêm vào đó, họ không thể kết hôn vì anh ta là người Do Thái còn cô là người Kitô giáo. Chung sống với anh ta mà không có hôn nhân nghĩa là \"giết chết\" mẹ mình. Anh ta đề nghị ra nước ngoài, nhưng cô không nỡ rời bỏ người mẹ mà cô đang phụng dưỡng. Cô đã cố quên anh ta nhưng không thành công vì đó không phải là sự say nắng nhất thời mà là một tình yêu sâu đậm. Cuộc sống đối với cô đã trở thành một nỗi thống khổ.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:46:12.777Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "f4411f2a-18c5-4e9e-b708-7b424def4fc8",
+      "book": "TOM 78",
+      "text": "99. Gửi các tòa soạn báo. (Thư không gửi).\nNgày 25 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana.\n\nThưa Ngài Tổng biên tập,\n\nTôi gửi đến Ngài bức thư đính kèm sau đây.¹ Tôi đã nhận được một vài bức thư như vậy từ những người có thái độ phản đối lễ kỷ niệm sắp tới của mình; tôi khẩn thiết mong Ngài cho đăng bức thư này theo đúng nguyện vọng của tác giả. Về phần mình, tôi cũng mong muốn nó được đăng tải, vì nhân bức thư này, tôi có đôi lời muốn nói về lễ kỷ niệm sắp tới của tôi.\n\nĐiều tôi muốn nói chính là lễ kỷ niệm đang được chuẩn bị này vô cùng nặng nề đối với tôi. Có nhiều lý do cho việc này. Một trong những lý do đầu tiên là tôi chưa bao giờ nhìn nhận những hình thức tôn vinh như vậy với sự thiện cảm; tôi luôn cho rằng việc bày tỏ sự đồng cảm và lòng yêu mến đối với hoạt động của một con người không nên thể hiện qua hình thức bên ngoài, mà phải bằng sự kết nối gần gũi về tâm tư và tư tưởng với người mà những tâm tư, tư tưởng đó hướng tới.\n\nTôi nhớ lại chuyện từ rất lâu rồi, khoảng ba mươi năm trước, trong dịp tôn vinh Pushkin và dựng đài kỷ niệm ông, Turgenev thân mến đã ghé thăm tôi, mời tôi cùng ông đi dự lễ hội đó. Dù lúc bấy giờ Turgenev có quý giá và thân thiết với tôi đến đâu, dù tôi có trân trọng và đánh giá cao (vẫn luôn đánh giá cao) thiên tài của Pushkin thế nào, tôi vẫn từ chối;² tôi biết mình đã làm Turgenev buồn, nhưng tôi không thể làm khác được, bởi ngay từ khi đó, những kiểu tôn vinh như vậy đối với tôi đã là một điều gì đó khiên cưỡng, tôi không nói là giả dối, nhưng không đáp ứng được những đòi hỏi của tâm hồn tôi. Giờ đây, khi chuyện này liên quan trực tiếp đến cá nhân mình, tôi còn cảm thấy điều đó ở mức độ lớn hơn nhiều.\n\nNhưng đó chỉ là lý do sau cùng. Một lý do khác, quan trọng nhất, chính là điều đã được bày tỏ trong bức thư này và các bức thư khác cùng loại: đó là việc chuẩn bị cho những cuộc tôn vinh này đang gây ra trong lòng một lượng lớn người những cảm xúc tồi tệ nhất đối với tôi. Những cảm xúc không tốt đẹp này có lẽ đã nằm yên không phát tiết, nhưng nay lại trỗi dậy và phát triển vì lý do này. Tôi biết rằng chính mình đã gây ra những cảm xúc tồi tệ đó: chính tôi có lỗi, lỗi ở những lời lẽ thiếu thận trọng và gay gắt mà tôi đã dùng để phán xét đức tin của người khác. Tôi chân thành hối hận về điều này và rất vui vì có dịp được nói ra. Nhưng điều đó không làm thay đổi được sự việc.\n\nỞ tuổi của tôi, khi đã một chân bước xuống huyệt, điều duy nhất mong muốn là được sống trong tình yêu thương với mọi người trong chừng mực có thể, và ra đi với chính những cảm xúc ấy. Thế nhưng bức thư này và những thư tương tự mà tôi nhận được cho thấy rằng việc chuẩn bị kỷ niệm đang gây ra cho mọi người — và điều này hoàn toàn chính đáng — những cảm xúc hoàn toàn trái ngược với tình yêu đối với tôi. Điều đó thật nặng nề.\n\nNếu trên một đĩa cân là những lời tán thưởng dễ chịu và hãnh diện nhất của những người mà tôi kính trọng, còn trên đĩa cân kia là sự căm ghét bị khơi dậy của dù chỉ một con người, tôi nghĩ mình sẽ không ngần ngại từ bỏ mọi lời khen ngợi, miễn là không làm gia tăng sự thiếu hụt tình yêu của người đó. Giờ đây, tôi cảm thấy lễ kỷ niệm này đang gây ra những cảm xúc không tốt đẹp, thiếu yêu thương đối với tôi — những điều mà tôi đáng phải nhận — không chỉ từ một người, mà từ rất nhiều, rất nhiều người. Điều này làm tôi đau đớn vô cùng, và vì vậy tôi xin tất cả những người nhân từ đang yêu mến tôi, hãy làm tất cả những gì có thể để hủy bỏ mọi nỗ lực tôn vinh tôi.\n\nTôi sẽ không nói về việc tôi hoàn toàn chân thành nhận thấy mình không xứng đáng với những cuộc tôn vinh đang được chuẩn bị: tất cả những điều đó có thể bị coi là sự làm dáng giả tạo. Nhưng tôi không thể không nói ra những gì mình nghĩ, và tôi sẽ hạnh phúc nếu mọi người từ bỏ việc này và không làm gì theo hướng đó nữa.\n\nChú thích:\nBản gốc đánh máy (không ký tên và ghi ngày). Đọc ghi âm qua máy quay đĩa. Công bố lần đầu (trừ đoạn đầu) trong bài báo của V. Chertkov \"Lễ kỷ niệm Tolstoy\" — báo \"Rech\" (Diễn ngôn) 1908, số 132 ngày 4 tháng 6. Công bố toàn bộ dưới dạng thư gửi tòa soạn báo \"Russkie Vedomosti\" (Tin tức Nga) trong PTS, I, số 258. Ngày tháng xác định dựa trên việc bức thư được đọc vào ngày N. V. Davydov đến Yasnaya Polyana (25/03/1908).\n\nBức thư này đã được trao cho N. V. Davydov, người đến Yasnaya Polyana theo ủy thác của Ủy ban Moscow về tổ chức kỷ niệm 80 năm ngày sinh của Tolstoy. Sau khi nghe ý kiến của Tolstoy, Davydov đã công bố bức thư tại cuộc họp của Ủy ban. \"Với lòng tôn kính trước ý chí được bày tỏ một cách dứt khoát của Tolstoy\", Ủy ban đã quyết định chấm dứt mọi hoạt động tổ chức kỷ niệm.\n\n¹ Tolstoy ám chỉ bức thư lăng mạ của K. Voinov-Razumovsky gửi từ Kursk ngày 16/03/1908. ² I. S. Turgenev đến Yasnaya Polyana vào tháng 5 năm 1880 để mời Tolstoy dự lễ khánh thành tượng đài Pushkin tại Moscow.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:51:22.474Z",
+      "pinned": false,
+      "status": "pending"
+    },
+    {
+      "id": "0cb444f9-5f88-4a60-baa9-d2b435965171",
+      "book": "TOM 78",
+      "text": "101. Gửi V. A. Scheerman.\nNgày 25 tháng 3 năm 1908. Yasnaya Polyana.\n\nYasnaya Polyana.\n\nVladimir Alexandrovich thân mến,\n\nBức thư của anh khiến tôi đặc biệt hài lòng, vì khi đọc nó, tôi cảm nhận được một nền tảng chung duy nhất đang kết nối mình với những người mà mình chưa bao giờ gặp mặt, những người sống cách xa mình, nhưng lại đang sống bằng cùng một đời sống tâm linh giống như mình. Thái độ của anh đối với cái lễ kỷ niệm nực cười này của tôi hoàn toàn giống với thái độ của tôi, chỉ có một sự khác biệt là tôi gặp khó khăn trong việc bày tỏ thái độ đó với những người tổ chức vì vướng phải thiện chí của họ. Còn anh thì không bị ràng buộc bởi điều đó. Tạ ơn Chúa, như anh có thể đã đọc trên báo, toàn bộ kế hoạch này có lẽ sẽ bị hủy bỏ.\n\nRất tiếc là cho đến nay tôi vẫn chưa có dịp gặp gỡ anh. Thân ái siết chặt tay anh.\n\nLev Tolstoy. Ngày 25 tháng 3 năm 1908.\n\nChú thích:\nIn theo sổ sao chép số 8, tờ 162, nơi dán một bản sao viết tay. Thư được đọc ghi âm qua máy quay đĩa. Công bố lần đầu dưới mật danh V. A. Sh. trong PTS, I, số 262.\n\nVề Vladimir Alexandrovich Scheerman, xem tập 76, trang 84. Kèm theo thư ngày 17 tháng 3 năm 1908, V. A. Scheerman đã gửi một bản \"tuyên bố\" mà trước đó Tolstoy đã nhận được từ M. S. Dudchenko. Xem thư số 96.",
+      "processedText": "",
+      "createdAt": "2025-12-25T06:53:11.181Z",
       "pinned": false,
       "status": "pending"
     }
